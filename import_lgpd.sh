@@ -17,7 +17,7 @@ echo -n "Username:"
 read -r username
 
 echo -n "Password: "
-read -r password
+read -s password
 
 # Firstly Validate if any input field is left blank. If an input field is left blank, display appropriate message and stop execution of script 
 if [ -z "$delphix_engine" ] || [ -z "$username" ] || [ -z "$password" ]
