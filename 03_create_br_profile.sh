@@ -8,8 +8,7 @@ source apiHostInfo
 AUTH_HEADER=`cat Authorization`
 count=0
 
-rm lista_prof_exp_ids.txt
-touch lista_prof_exp_ids.txt
+> lista_prof_exp_ids.txt
 
 while IFS=$'\t' read domainName expressionName regularExpression dataLevelProfiling
 do
