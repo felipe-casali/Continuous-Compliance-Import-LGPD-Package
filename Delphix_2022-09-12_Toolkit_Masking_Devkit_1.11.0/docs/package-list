@@ -1,0 +1,13 @@
+com.delphix.masking.api.driverSupport
+com.delphix.masking.api.driverSupport.jobInfo
+com.delphix.masking.api.driverSupport.taskInfo
+com.delphix.masking.api.plugin
+com.delphix.masking.api.plugin.exception
+com.delphix.masking.api.plugin.referenceType
+com.delphix.masking.api.plugin.typeAdapters
+com.delphix.masking.api.plugin.utils
+com.delphix.masking.api.plugin.utils.external
+com.delphix.masking.api.plugin.utils.security
+com.delphix.masking.api.provider
+com.delphix.masking.helpers
+com.delphix.masking.internal.mapping

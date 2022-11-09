@@ -1,0 +1,8 @@
+"domainName","defaultAlgorithmCode"
+"BR_CPFCNPJ","dlpx-core:CM Alpha-Numeric"
+"BR_TELEFONE","dlpx-core:CM Alpha-Numeric"
+"BR_IPADDRESS","dlpx-core:CM Alpha-Numeric"
+"BR_PRIMEIRONOME","dlpx-core:FirstName"
+"BR_ULTIMONOME","dlpx-core:LastName"
+"BR_DATA_NASC","DateShiftDiscrete"
+"BR_EMAIL","dlpx-core:Email SL"
