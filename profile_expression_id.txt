@@ -1,1 +1,1 @@
-{"profileExpressionId":287,"domainName":"BR_EMAIL","expressionName":"BR_EMAIL_DATA","regularExpression":"^(([^<>()\\[\\]\\.,;:\\s@]+(\\.[^<>()\\[\\]\\.,;:\\s@]+)*)|((?:^ ).+))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))(?!\\d|-|\\/|\\.)$","createdBy":"admin","dataLevelProfiling":true}
+{"errorMessage":"Profile Expression already exists with identifier: BR_EMAIL_DATA"}

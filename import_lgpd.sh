@@ -1,15 +1,18 @@
 #!/usr/bin/env bash
 
+# Clear all credentials and IP addresses
 clean_secrets(){
-    cat " " > temp_profile_expressions.csv
-    cat " " > apiHostInfo
-    cat " " > loginCredentials.json
+    > temp_profile_expressions.csv
+    > apiHostInfo
+    > loginCredentials.json
 }
 
+# Generate a temp profile expressions csv with the mandatory additional escapes
 cat profile_expressions.csv | sed 's/\\/\\\\\\\\/g' > temp_profile_expressions.csv
 
 echo -e "Before starting to import the LGPD package, let's connect to your Delphix Continuous Data engine:\n"
 
+# Ask for the credentials for the masking engine
 echo -n "IP address: "
 read -r delphix_engine
 
