@@ -42,7 +42,7 @@ read -p "The Masking Engine password will be asked once more. Press enter to con
 
 echo -e "\nStarting to import LGPD package..."
 
-./Delphix_2022-09-12_Toolkit_Masking_Devkit_1.11.0/sdkTools/bin/maskScript install -j /Users/felipe.casali/Documents/dxtoolkit2/lgpd_scripts/BR.jar  -H $delphix_engine -u $username
+./Delphix_2022-09-12_Toolkit_Masking_Devkit_1.11.0/sdkTools/bin/maskScript install -j ./BR.jar  -H $delphix_engine -u $username
 rc=$?
 
 if [ $rc -eq 0 ]
