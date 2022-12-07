@@ -1,0 +1,854 @@
+Viaduto Souza
+Parque Correia
+Recanto Danilo Moraes
+Lagoa Bárbara Moraes, 51
+Parque Almeida, 32
+Esplanada de Campos, 53
+Quadra de Moreira, 491
+Favela Jesus, 58
+Pátio Nogueira, 65
+Núcleo Emilly Azevedo, 80
+Esplanada de Viana, 18
+Lagoa Maria Eduarda Cardoso, 514
+Favela Jesus, 34
+Lago da Costa, 99
+Travessa Alana Rocha, 41
+Viaduto Souza
+Parque Correia
+Recanto Danilo Moraes
+Lagoa Bárbara Moraes, 51
+Parque Almeida, 32
+Esplanada de Campos, 53
+Quadra de Moreira, 491
+Favela Jesus, 58
+Pátio Nogueira, 65
+Núcleo Emilly Azevedo, 80
+Esplanada de Viana, 18
+Lagoa Maria Eduarda Cardoso, 514
+Favela Jesus, 34
+Lago da Costa, 99
+Travessa Alana Rocha, 41
+Avenida de Mendes, 62
+Jardim Manuela Dias, 272
+Trevo Ramos, 50
+Estrada Freitas, 613
+Morro de Cardoso,, 1
+Jardim Fogaça, 292
+Residencial da Rosa, 4
+Área Nogueira, 26
+Aeroporto da Cruz, 77
+Favela Lopes, 65
+Viela de Gomes, 6
+Núcleo Caldeira, 33
+Quadra Sales, 489
+Lago de Duarte, 94
+Vale de Nunes, 47
+Ladeira Nicole Sales, 81
+Estação de da Paz
+Quadra Mariane da Luz, 18
+Rodovia de Vieira, 1
+Quadra de da Costa, 573
+Ladeira da Paz, 652
+Feira de Fogaça, 15
+Lagoa de Lima, 214
+Rodovia Bruno Costela, 721
+Feira Gustavo Araújo, 525
+Ladeira Silva, 727
+Quadra de Nogueira, 802
+Lagoa Natália Carvalho
+Aeroporto Daniel Mendes, 415
+Núcleo da Costa, 41
+Travessa Campos, 87
+Passarela Vitor Gabriel Vieira, 35
+Recanto Igor Aragão, 62
+Quadra de Novaes, 233
+Lago Caroline Viana
+Avenida de Caldeira, 8
+Viaduto Ana Clara Ramos
+Avenida Ana Laura Azevedo, 6
+Rua Eduarda Costa, 67
+Conjunto Melo
+Estrada Caroline Mendes, 25
+Quadra de Caldeira, 36
+Passarela de Castro, 10
+Vila de Barros
+Vila Ramos, 374
+Conjunto Oliveira, 996
+Quadra Caldeira, 66
+Viaduto Giovanna da Paz, 89
+Favela de Oliveira
+Parque Davi Luiz Viana
+Via Lorena Barros, 43
+Quadra Noah Nogueira, 334
+Colônia Thiago da Cruz, 29
+Viela da Luz, 2
+Alameda de Lima, 27
+Lago Lucas Gabriel Nogueira, 68
+Rodovia de Gonçalves, 6
+Sítio de Oliveira, 77
+Vale de Barros, 6
+Sítio Castro
+Ladeira Maria Clara Melo, 3
+Conjunto Aragão, 3
+Largo Pinto, 8
+Estação de Lima
+Trevo Porto
+Estrada Ana Lívia Peixoto
+Avenida de Barbosa
+Lago Enzo Alves, 46
+Sítio Monteiro, 63
+Núcleo da Rosa, 254
+Recanto Lorena Jesus, 89
+Estação da Mata, 727
+Estrada Joana Moraes, 90
+Quadra Silveira, 6
+Largo da Costa, 66
+Colônia Amanda Nunes
+Avenida de Freitas, 423
+Passarela Lorena Jesus, 17
+Via de Oliveira, 43
+Aeroporto de Fogaça, 42
+Condomínio Elisa Ramos, 59
+Conjunto Melo, 1
+Praça de Mendes, 12
+Área Samuel Araújo
+Sítio de Pinto, 76
+Vale de Viana, 66
+Avenida de Porto
+Viaduto Maysa Santos, 94
+Campo Silveira, 56
+Jardim Mariane Moreira, 5
+Viaduto Sales, 32
+Lagoa de Alves, 7
+Passarela de Porto, 82
+Travessa de Sales, 1
+Aeroporto Luiz Gustavo Nascimento, 8
+Viaduto de Silveira
+Viela Gabriela Oliveira, 54
+Vale Vieira, 43
+Pátio de Rezende, 1
+Parque Bryan Porto, 32
+Passarela Miguel Silveira, 14
+Lagoa Erick Rocha, 966
+Largo Carlos Eduardo das Neves, 691
+Morro Juliana Moraes, 92
+Recanto Rodrigues, 5
+Pátio de Cardoso,, 4
+Estação de Martins, 71
+Largo Agatha Aragão, 2
+Estação Felipe Gonçalves, 73
+Rodovia de da Luz
+Recanto de da Mata
+Passarela da Paz
+Feira Gonçalves
+Estação de Fogaça, 808
+Conjunto Silva, 25
+Núcleo Emilly Cardoso, 966
+Condomínio Maria Vitória Ribeiro, 27
+Passarela de da Cruz, 17
+Estação Monteiro, 54
+Travessa de Jesus, 894
+Lagoa Stephany Barbosa
+Passarela Juliana Mendes, 88
+Avenida de Nunes, 743
+Setor FariasFernandes
+Pátio Vitória da Rosa
+Passarela Bernardo Moraes, 38
+Esplanada de Pires, 185
+Rua Cardoso,, 312
+Pátio Leandro Mendes, 84
+Alameda Maysa Cavalcanti, 816
+Ladeira de Sales
+Rodovia Sophie Porto, 8
+Estrada Gustavo Pereira, 89
+Quadra de Lima
+Jardim de Rodrigues, 81
+Vila de Silva, 860
+Colônia Maria Alice Alves
+Via Isis FariasFernandes, 54
+Rua Gomes
+Vale da Mata, 196
+Rodovia Thiago Vieira, 319
+Trevo FariasFernandes, 5
+Setor de Ramos, 456
+Viela Cavalcanti, 83
+Área Costa, 85
+Pátio Matheus Pinto
+Sítio de Moreira, 48
+Esplanada Joaquim Ferreira, 66
+Viaduto Maria Vitória Sales, 446
+Núcleo de da Costa, 33
+Viela Maria Eduarda da Rosa, 31
+Travessa Barbosa, 99
+Via FariasFernandes
+Colônia Alves, 33
+Núcleo Costela, 93
+Travessa das Neves, 107
+Residencial Carvalho, 70
+Rodovia de Cardoso,, 89
+Setor Yasmin Cunha, 77
+Esplanada Fogaça, 38
+Colônia Mirella da Mata, 9
+Setor Raquel Nogueira, 90
+Aeroporto de Mendes, 99
+Favela Vieira, 25
+Parque Castro
+Pátio da Paz, 54
+Largo de Pinto, 70
+Chácara Cauê Pinto, 829
+Favela Gonçalves, 27
+Distrito de Sales, 62
+Passarela Silva, 8
+Trevo de Oliveira
+Lago de Jesus, 50
+Fazenda da Mata, 6
+Pátio Laura da Luz, 38
+Loteamento de Nascimento, 74
+Largo Stella Viana, 63
+Campo de Barbosa
+Área de Alves, 517
+Favela de Pinto
+Área Nogueira, 8
+Largo Vinicius Jesus
+Trevo de Silveira, 81
+Passarela de da Luz, 75
+Morro Monteiro
+Parque Nogueira, 50
+Viaduto Silva, 35
+Morro de Cunha, 95
+Núcleo Mariana Correia, 54
+Loteamento Arthur Viana, 2
+Avenida Lopes, 44
+Condomínio Leonardo da Rocha
+Recanto Mendes, 69
+Avenida Milena Alves, 41
+Sítio de Costa, 60
+Núcleo de Gonçalves
+Vila Evelyn Viana, 3
+Viela de Pereira, 67
+Chácara Nicole Barbosa, 48
+Rua de Cavalcanti
+Quadra João Gabriel Viana, 83
+Aeroporto de Moraes, 16
+Estrada de Cavalcanti, 21
+Área de Costa, 71
+Ladeira Caio Melo, 79
+Estação Nogueira
+Estrada Nogueira, 3
+Estação de Martins, 917
+Conjunto de Costa, 76
+Estação Emanuelly Vieira, 70
+Trevo da Rosa, 966
+Sítio Alícia da Conceição, 50
+Travessa Cardoso,, 48
+Área Souza, 22
+Ladeira de da Cruz, 9
+Jardim Thales Silveira
+Parque de Costa, 492
+Residencial de Moreira, 45
+Lagoa de Peixoto, 30
+Residencial FariasFernandes, 61
+Travessa Manuela Vieira, 943
+Trecho de Martins, 2
+Vereda Sophia Lopes, 316
+Avenida Almeida, 83
+Alameda Lucas Carvalho
+Vereda de Duarte, 560
+Sítio de da Rosa, 69
+Feira Maitê das Neves
+Estação Viana, 9
+Loteamento Theo Cardoso, 91
+Residencial Benjamin Viana
+Praça Silveira, 81
+Trevo Alexia Alves, 61
+Núcleo Catarina Moraes, 46
+Parque Aragão, 51
+Lagoa Beatriz Pires, 3
+Passarela de da Cunha
+Colônia Isaac Carvalho, 11
+Aeroporto Bruno da Cruz, 831
+Largo de Freitas
+Quadra de da Cunha, 1
+Passarela Nicole Duarte
+Fazenda de Martins, 178
+Quadra Moraes, 66
+Área Isaac Caldeira, 8
+Lago Pedro Henrique Correia, 4
+Conjunto de Lima, 33
+Condomínio Rodrigues, 71
+Campo Evelyn Correia, 46
+Colônia de Lopes, 12
+Condomínio de da Conceição, 63
+Vila Souza, 11
+Colônia Pires, 89
+Colônia Paulo Alves, 828
+Passarela Sarah Costa, 98
+Área de Oliveira, 63
+Vale de Ferreira, 9
+Lago Cardoso
+Parque Pedro Henrique Cardoso,, 4
+Via Ana Clara Barros, 7
+Ladeira Stella da Mata, 5
+Fazenda Davi Duarte, 358
+Viaduto Cauê Moura, 444
+Pátio Felipe Teixeira
+Núcleo Nogueira, 48
+Jardim Mendes, 36
+Via de Lopes, 124
+Campo Sarah Barbosa, 92
+Favela Lima, 90
+Residencial da Rocha, 10
+Área Duarte, 75
+Viaduto de Caldeira, 42
+Condomínio da Rosa, 3
+Morro de Pereira, 924
+Praça Luna Dias, 656
+Vila de Teixeira, 27
+Vila Rafaela Gonçalves, 88
+Área Rodrigues, 49
+Vale Sales
+Travessa Nunes, 418
+Residencial Alana da Rosa, 77
+Recanto FariasFernandes
+Feira de Aragão
+Viela Isadora da Mata, 3
+Chácara de Peixoto, 94
+Morro Gonçalves, 818
+Jardim de Peixoto
+Condomínio de Silveira, 23
+Distrito Gonçalves, 5
+Parque Correia, 60
+Passarela Araújo, 24
+Estação da Cruz, 28
+Fazenda da Cruz, 84
+Fazenda da Costa, 85
+Rodovia Barbosa, 35
+Viela Porto, 3
+Área Fernanda Silva, 83
+Loteamento Cardoso,, 51
+Largo de Viana, 3
+Recanto de Araújo, 63
+Praça Joana Cunha, 76
+Área Gustavo Moura, 925
+Colônia de Barbosa
+Trevo Agatha Nogueira, 99
+Feira Moura, 60
+Residencial Marcelo da Paz, 3
+Parque Davi Lucas da Costa, 33
+Travessa de Fogaça, 408
+Trevo de da Cruz
+Alameda Matheus Ribeiro
+Sítio Martins, 70
+Chácara Rodrigo Barros, 35
+Ladeira Nogueira, 201
+Largo Pedro Lucas da Rosa, 6
+Recanto de Caldeira, 512
+Viaduto Campos
+Vale Porto, 7
+Colônia de Mendes, 293
+Viela Costela, 20
+Estação Cardoso, 822
+Ladeira FariasFernandes, 79
+Viaduto Juliana Moraes, 57
+Loteamento Cunha, 15
+Recanto de Cunha, 185
+Alameda de Ribeiro
+Lago Leandro da Conceição
+Largo de Viana, 8
+Conjunto Gomes, 817
+Chácara de Pinto, 71
+Jardim de Moraes, 14
+Loteamento Lima, 324
+Quadra Melissa Rodrigues, 632
+Chácara de da Mota, 90
+Via Sales, 93
+Vale Davi Lucca Teixeira, 19
+Campo de Cardoso, 80
+Área de Cavalcanti, 836
+Recanto Emilly Lopes, 2
+Lagoa de Pinto, 72
+Fazenda Araújo, 5
+Largo Luigi Martins, 42
+Largo Ribeiro, 71
+Via de Viana, 1
+Residencial das Neves
+Avenida Mendes, 730
+Parque Levi Vieira, 923
+Praça Moreira, 3
+Rodovia FariasFernandes, 27
+Rua Bárbara da Mota, 169
+Passarela de Ramos, 824
+Recanto Jesus, 823
+Estação Camila Oliveira, 8
+Ladeira Duarte
+Colônia da Costa, 833
+Fazenda Ramos, 361
+Fazenda Pedro Miguel Ferreira, 90
+Estrada de Lima, 92
+Estação de Martins, 16
+Esplanada Davi Lucca Araújo, 70
+Vila Pinto, 13
+Via Azevedo, 3
+Loteamento Silva, 398
+Quadra Nogueira, 88
+Distrito da Mata
+Alameda de Gomes, 19
+Feira Kamilly Lima, 733
+Rodovia Emanuelly Gonçalves, 5
+Chácara de Martins
+Loteamento Camila da Mata, 772
+Via Emanuelly Barbosa, 56
+Vereda de Costa, 54
+Viaduto Danilo Cavalcanti, 942
+Largo Duarte, 59
+Viela de Costa, 7
+Fazenda Eduardo Barbosa, 30
+Via Lima, 56
+Largo de Mendes, 14
+Largo de Peixoto, 21
+Largo Emanuelly Ribeiro
+Sítio de Cavalcanti, 72
+Campo da Rocha, 48
+Passarela Oliveira, 33
+Trevo da Conceição, 18
+Fazenda Mariana Nogueira, 60
+Distrito Joaquim da Costa, 57
+Morro Oliveira, 9
+Esplanada Souza, 4
+Alameda de Costa, 32
+Morro Alana da Mota, 53
+Colônia da Rosa
+Rua FariasFernandes, 52
+Condomínio Thiago Aragão, 70
+Setor de da Cunha
+Chácara de Aragão, 80
+Estação Barbosa, 10
+Campo de Pinto, 38
+Vila Murilo Azevedo, 20
+Lagoa de da Rocha, 2
+Feira Luiz Fernando Silveira, 62
+Largo Barbosa, 2
+Estrada Rocha, 61
+Trevo Correia, 6
+Chácara de Mendes, 56
+Sítio de Monteiro, 65
+Lago Lorena Correia, 35
+Via Cavalcanti
+Área Sales, 67
+Aeroporto João Miguel Monteiro, 92
+Favela de Porto, 977
+Jardim de Dias, 76
+Chácara Costa, 44
+Estação de Rezende, 2
+Estrada de Aragão, 4
+Largo Cauã Ramos
+Distrito Vicente Rezende, 57
+Distrito de Dias, 72
+Via Pietro Fogaça, 5
+Sítio Bernardo Sales
+Avenida Duarte, 22
+Trevo de Nunes, 9
+Setor de Ribeiro, 8
+Jardim João Miguel Pires, 9
+Viaduto Costela, 8
+Via Valentina Jesus, 65
+Ladeira de Rodrigues, 67
+Largo Jesus, 62
+Estrada da Mota, 19
+Setor de Silveira, 88
+Estrada de Monteiro, 191
+Vila de Campos, 948
+Trecho Davi Lucca Viana, 92
+Colônia Carolina Cunha, 70
+Passarela de Barros, 2
+Via Jesus, 20
+Quadra Gonçalves, 67
+Rua Lima, 13
+Estrada Heitor da Cruz, 6
+Esplanada de Sales, 47
+Travessa de Oliveira, 84
+Largo de Almeida, 41
+Largo Nicolas Fogaça, 52
+Trevo Alves
+Praça da Mota, 86
+Travessa Maria Alice Teixeira, 47
+Quadra Araújo, 81
+Residencial de Nascimento, 7
+Praça Ferreira, 4
+Lago Novaes, 70
+Distrito de Moreira, 623
+Conjunto Pinto, 366
+Travessa Porto, 63
+Jardim de Novaes, 425
+Vila Aragão, 678
+Morro Alexia Carvalho, 33
+Pátio Evelyn Oliveira, 47
+Núcleo de Fogaça, 51
+Estação Monteiro
+Loteamento Peixoto
+Setor Moreira, 383
+Lago Gabriela das Neves, 213
+Favela Peixoto, 51
+Morro de Jesus
+Estrada de Almeida, 8
+Passarela Luigi Moraes, 911
+Setor de Teixeira, 67
+Favela de Costela, 60
+Feira Gustavo Henrique Pereira, 854
+Feira Rodrigues, 161
+Estrada de Vieira
+Residencial Mendes, 35
+Colônia FariasFernandes, 11
+Parque da Luz, 96
+Viela Nascimento, 97
+Esplanada de Souza, 289
+Parque Oliveira, 20
+Ladeira Fogaça, 90
+Recanto de da Costa, 67
+Condomínio Luana Melo, 35
+Feira Davi Lucca Azevedo, 31
+Travessa de Rezende, 427
+Alameda Bruno Barros
+Ladeira de Teixeira, 66
+Vila da Costa
+Jardim da Rocha
+Setor de Moreira, 58
+Praça de Duarte, 82
+Lagoa de da Cunha, 8
+Colônia Mendes, 86
+Jardim de Lopes, 243
+Colônia Melissa Lima
+Praça de das Neves, 80
+Campo Martins, 28
+Vale Henrique da Paz, 17
+Estação Sales, 9
+Jardim Raquel Silveira, 20
+Colônia Renan Silveira
+Feira Agatha Cardoso,, 3
+Praça Thiago Lopes, 5
+Travessa Raquel Vieira
+Fazenda Lucas Teixeira
+Chácara Pereira, 98
+Núcleo Arthur Novaes, 72
+Rua de Pires, 64
+Vila de Monteiro, 1
+Feira Silva, 570
+Colônia de Souza, 10
+Trecho de Silveira, 23
+Avenida Luna Dias, 65
+Quadra Davi Nunes, 91
+Residencial Dias, 23
+Via Fernando Dias, 86
+Quadra de Teixeira, 46
+Quadra Gabrielly Fogaça
+Alameda Emanuelly da Cunha, 73
+Ladeira Sophia da Cruz, 46
+Estrada Paulo Gomes, 76
+Lagoa Barros, 533
+Campo Pereira, 74
+Trecho de Castro, 154
+Lago da Rosa, 28
+Avenida Eloah Barros, 891
+Lagoa Maitê Melo, 917
+Esplanada de Rodrigues
+Avenida de Lima
+Residencial da Rosa, 6
+Conjunto Enrico Moreira, 1
+Avenida Ana Laura Araújo, 72
+Morro Azevedo
+Chácara Almeida, 20
+Quadra de Lima, 10
+Rua Alexandre da Mota, 966
+Setor de Dias, 91
+Campo Nunes, 83
+Condomínio Costa, 5
+Rodovia de da Mota, 85
+Trevo Barbosa, 18
+Passarela de Barros, 9
+Avenida Samuel Caldeira
+Morro de Aragão, 15
+Estação Novaes, 30
+Lagoa Davi Luiz da Costa, 97
+Esplanada Antônio Moura, 59
+Lagoa Lorenzo Oliveira, 248
+Campo Caldeira, 73
+Trecho Nogueira, 59
+Viaduto Felipe Martins, 9
+Rua Maria Eduarda Caldeira, 32
+Chácara Barros, 128
+Passarela Vieira, 447
+Conjunto da Costa, 81
+Morro de Moura, 45
+Chácara Enrico Gomes, 9
+Ladeira de Nogueira, 777
+Jardim Bruna da Mata, 95
+Feira Elisa Duarte
+Área de Nogueira, 24
+Rodovia Benício Teixeira, 74
+Quadra Yuri Cardoso,, 1
+Ladeira Rezende, 41
+Condomínio de Correia, 86
+Favela Heitor Fogaça
+Vereda Enrico da Conceição, 40
+Rodovia Fogaça
+Chácara de Carvalho, 89
+Núcleo Sales, 57
+Fazenda Mariana Nunes, 17
+Recanto de da Mota, 863
+Trecho de Martins, 83
+Trevo Stephany da Conceição, 42
+Recanto Agatha Barros, 81
+Aeroporto de Dias, 7
+Residencial Dias, 57
+Alameda Helena Pinto, 81
+Chácara Lopes, 55
+Residencial de Nunes, 37
+Avenida de Rocha, 67
+Via Rodrigues, 25
+Campo Ana Lívia Araújo
+Quadra Luiz Miguel Caldeira, 47
+Residencial de Araújo
+Setor de Freitas, 25
+Morro Lopes, 15
+Conjunto Santos, 46
+Esplanada Lucca Pereira, 568
+Sítio João Guilherme Fogaça, 66
+Vereda Kevin Moura, 767
+Avenida de Carvalho, 9
+Largo Ana Carolina Ribeiro, 47
+Ladeira Elisa Caldeira, 583
+Vale Costa, 71
+Vila Larissa Silva, 36
+Via Jesus, 80
+Trecho Silveira, 300
+Feira Maria Cecília Martins, 239
+Trevo Isaac Alves
+Parque Fogaça
+Estação de Pinto, 7
+Praça de da Cruz, 21
+Vila Heloísa Pires, 3
+Avenida Lívia da Luz, 364
+Núcleo de Cavalcanti, 119
+Alameda da Cunha, 75
+Conjunto Vicente Cardoso,, 5
+Lago Eduarda Monteiro, 88
+Colônia da Costa, 77
+Estação Vitor Hugo Azevedo, 75
+Rua Stella Nunes, 23
+Área Costa, 926
+Estrada Alice Ferreira, 95
+Feira de Fogaça, 90
+Condomínio de Nunes, 14
+Alameda das Neves, 72
+Chácara Paulo Duarte
+Rodovia Alana Alves
+Fazenda Augusto Azevedo, 3
+Passarela Nunes, 20
+Lago Luiz Gustavo Viana, 84
+Setor Sales, 168
+Setor de Campos, 9
+Condomínio Nascimento, 27
+Campo de Barbosa, 713
+Morro de das Neves
+Vereda Viana, 471
+Estrada de Campos, 12
+Feira de Lima, 5
+Residencial Rocha, 71
+Trecho Breno Gonçalves, 54
+Viela Peixoto
+Condomínio de Fogaça, 259
+Travessa de Lopes, 275
+Sítio Almeida, 76
+Loteamento Luiza Cunha, 851
+Trecho de Barros
+Lago Thiago da Cruz
+Lagoa Rebeca Santos
+Favela Moura, 18
+Lago Lopes, 36
+Setor Campos
+Vila Maria Dias, 1
+Recanto Maria Clara Rocha, 3
+Rodovia Ana Julia Almeida
+Área Caldeira
+Condomínio Cardoso, 639
+Morro João Miguel Viana, 8
+Colônia Pedro Miguel Campos, 4
+Conjunto Nascimento, 62
+Vale Barros, 21
+Loteamento Nunes, 5
+Jardim Cardoso,, 90
+Conjunto Porto
+Residencial de da Costa, 61
+Alameda de Peixoto, 6
+Praça Bryan Barros, 7
+Estação Rodrigues, 98
+Trevo Duarte, 276
+Trecho de Teixeira, 280
+Via de Nunes, 36
+Parque de Porto
+Residencial Luiz Felipe Alves
+Jardim de Rodrigues, 959
+Travessa de Costa, 91
+Esplanada Agatha da Mota, 86
+Ladeira de Vieira, 813
+Distrito Silveira, 784
+Largo Rodrigo da Luz, 58
+Feira FariasFernandes, 44
+Praça João Guilherme Monteiro
+Lago Rodrigues, 3
+Condomínio de Vieira, 85
+Vila de Gonçalves, 23
+Vila Francisco Barros, 90
+Esplanada de Ferreira, 12
+Rua Ribeiro, 539
+Feira de Viana, 92
+Condomínio Pereira, 45
+Pátio de Ramos, 70
+Via Benjamin Martins, 65
+Conjunto de Cardoso, 56
+Feira Gabrielly da Luz, 61
+Condomínio Otávio da Mota, 15
+Campo de da Cruz
+Via Campos, 263
+Viela Maria Vitória Azevedo, 629
+Rua Barbosa
+Chácara de Cunha, 58
+Travessa Ana da Mota, 58
+Núcleo Joaquim Castro, 4
+Pátio Cunha, 79
+Quadra Cavalcanti, 86
+Trevo Gomes, 974
+Travessa Gonçalves
+Via Sarah Cavalcanti, 12
+Parque de Silva, 2
+Via Augusto Cardoso,, 51
+Recanto Lopes, 978
+Vale de Peixoto, 46
+Colônia Natália Caldeira, 778
+Sítio Maria Fernanda Costa, 33
+Condomínio de Novaes, 77
+Feira de Vieira, 65
+Trevo Carvalho, 7
+Núcleo Luiz Gustavo Costela, 60
+Recanto de Pires, 55
+Favela Vieira, 852
+Esplanada de Sales, 85
+Chácara Heloísa Monteiro, 35
+Via Alexia da Mota, 9
+Residencial Vicente Correia, 1
+Trecho Valentina Rezende, 83
+Lago da Rocha, 60
+Vereda de Nascimento, 29
+Área Nina Almeida, 30
+Ladeira de Souza, 24
+Chácara de Rocha, 807
+Passarela Nascimento, 4
+Recanto de Oliveira, 11
+Via de Dias
+Distrito João Felipe Duarte, 7
+Estação Novaes, 97
+Largo Pires
+Área de Araújo
+Trecho Correia, 96
+Chácara de Carvalho, 582
+Pátio Bianca Viana, 95
+Campo de Sales, 58
+Núcleo Fernando Almeida, 98
+Colônia Kevin Rocha, 463
+Loteamento de das Neves, 2
+Jardim Rezende, 57
+Viaduto Luna Rezende, 2
+Praça Pedro Henrique Silveira, 11
+Quadra de Viana, 58
+Distrito de Pires, 24
+Morro Thiago da Costa, 202
+Distrito Ana Julia Martins, 4
+Passarela Teixeira, 6
+Recanto Alexandre Moura, 55
+Passarela Lucca Lima, 472
+Praça de Lopes, 85
+Trevo Kaique Sales, 959
+Loteamento de da Mota, 5
+Lago de Moraes, 854
+Viela de Fogaça, 8
+Vereda de Correia, 13
+Parque Caroline Rezende, 100
+Estrada de Cardoso,, 80
+Quadra Maria Clara Jesus
+Condomínio de Porto, 6
+Praça Fogaça, 397
+Lago de da Luz
+Alameda Gomes, 48
+Lago Freitas, 422
+Viaduto Cardoso, 42
+Fazenda de Barros, 14
+Conjunto de Silveira, 411
+Ladeira Pietro Ramos, 74
+Via de Silveira, 21
+Sítio da Luz, 75
+Sítio Monteiro, 4
+Fazenda Fogaça, 37
+Feira Jesus, 3
+Lagoa de Teixeira, 74
+Vale de Correia, 701
+Vereda de Teixeira, 56
+Travessa Pereira, 64
+Lagoa Isabel Araújo
+Trevo Pietro Jesus, 276
+Rua de Lima, 84
+Vale Nina da Rocha
+Favela de Ribeiro, 41
+Rua Nogueira, 94
+Rodovia Gabriela Lima, 56
+Lago Clara Cardoso, 8
+Área de Martins, 432
+Rua de Silva, 9
+Parque Porto, 75
+Esplanada Nicolas Oliveira
+Vila de da Cunha, 81
+Pátio da Paz, 33
+Viaduto de Moraes, 43
+Passarela de Barbosa
+Setor Alves, 12
+Avenida Rodrigues
+Avenida de Azevedo, 8
+Lago de da Cruz, 88
+Estação Isabel Araújo, 60
+Distrito Helena Castro
+Campo de Souza, 76
+Núcleo de Barbosa, 1
+Loteamento Gabriel Jesus, 49
+Passarela Ferreira, 91
+Trevo Anthony Melo, 88
+Campo Ana Julia Lima, 97
+Avenida Silveira, 93
+Pátio de Cardoso, 7
+Alameda Rocha, 694
+Morro Luiz Gustavo Dias, 926
+Via de Rocha, 66
+Núcleo de da Cunha
+Quadra Enzo Santos, 768
+Lago Maria Julia Rocha, 22
+Trevo Isabella da Mota, 31
+Vila Carvalho, 7
+Via de da Mota, 32
+Via Pereira, 518
+Rua Correia, 7
+Colônia João Oliveira
+Morro Enzo Almeida, 86
+Recanto Maria Eduarda Barbosa, 65
+Trevo Maria Vitória FariasFernandes, 921
+Residencial Jesus, 906
+Viela de Oliveira, 65
+Rua Gonçalves, 924
+Vale de Oliveira, 5
+Estação Camila Pinto, 63
+Avenida de Castro, 6
+Chácara de Freitas, 9
+Passarela Noah Novaes, 21
+Setor Castro, 596
+Condomínio Moreira
+Feira Thiago Vieira
+Loteamento Pedro Lucas da Costa
+Chácara Duarte, 79
+Viela de Sales, 89

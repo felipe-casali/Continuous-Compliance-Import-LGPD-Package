@@ -1,0 +1,456 @@
+Vila Dos Anjos
+Lagoa
+Marmiteiros
+Santa Helena
+São Jorge 3ª Seção
+Vila Das Oliveiras
+Madri
+Santo Antônio
+São Damião
+Itatiaia
+Vila Barragem Santa Lúcia
+Esperança
+Horto
+Vila Da Ária
+Vila Havaí
+Fazendinha
+Betânia
+Cachoeirinha
+Floramar
+Vila Paris
+Milionario
+Vila Nova Gameleira 2ª Seção
+Boa União 2ª Seção
+Delta
+Vila Calafate
+Novo São Lucas
+Jardim Atlântico
+Aparecida
+Copacabana
+Goiania
+Ipe
+Morro Dos Macacos
+Serra Verde
+Petropolis
+Vila Nova Cachoeirinha 3ª Seção
+Ademar Maldonado
+São João
+Grajaú
+Xangri-Lá
+Serra
+Conjunto Lagoa
+Jardim Felicidade
+São Bento
+Santana Do Cafezal
+Maravilha
+Vila Nova Paraíso
+Vila Primeiro De Maio
+Vila Copasa
+Estrela Do Oriente
+Vila Do Pombal
+São Francisco Das Chagas
+Nova Floresta
+Santa Monica
+Lourdes
+Ermelinda
+São Lucas
+Conjunto Capitão Eduardo
+Vila Trinta E Um De Março
+Caiçara - Adelaide
+Bela Vitoria
+Jardim Dos Comerciarios
+Vila Nova Dos Milionarios
+Estrela
+Sion
+Inconfidência
+Biquinhas
+Engenho Nogueira
+Vila São Rafael
+João Pinheiro
+Colégio Batista
+Vila Cloris
+Vila Madre Gertrudes 2ª Seção
+Conjunto Califórnia Ii
+Maria Helena
+Vila Rica
+Embaúbas
+Saudade
+Vila Califórnia
+Dom Joaquim
+Canadá
+Vila Jardim Montanhes
+Planalto
+Vila Cemig
+Vila Bandeirantes
+Belvedere
+Vale Do Jatoba
+Providencia
+Ouro Minas
+Vila Suzana Segunda Seção
+Buritis
+Cidade Nova
+Itapoa
+Marçola
+Primeiro De Maio
+São Bernardo
+Mangueiras
+Lajedo
+Jaqueline
+Nova Suíça
+Tupi B
+Vila Ecológica
+Monsenhor Messias
+Silveira
+Alto Vera Cruz
+Mineirão
+Guarani
+Calafate
+União
+Santa Inês
+Bonsucesso
+Vila Da Amizade
+Vila Antena Montanhês
+Conjunto São Francisco De Assis
+Prado
+Ribeiro De Abreu
+Santa Rosa
+Europa
+Mariquinhas
+Solar Do Barreiro
+Pantanal
+Casa Branca
+Santa Cecilia
+Conjunto Jatoba
+Minas Caixa
+Conjunto Serra Verde
+Atila De Paiva
+Piratininga
+Bairro Das Indústrias Ii
+São Sebastião
+Marieta 2ª Seção
+Distrito Industrial Do Jatoba
+Jardim Guanabara
+Vila Nova
+Conjunto Bonsucesso
+Nova Granada
+Grotinha
+Santa Maria
+Vila Madre Gertrudes 3ª Seção
+Vila Boa Vista
+Jonas Veiga
+São Vicente
+Vila Nova Cachoeirinha 2ª Seção
+Alto Barroca
+Conjunto Califórnia I
+Nova Esperança
+Juliana
+Ventosa
+Carmo
+Eymard
+Universitário
+Mantiqueira
+São Benedito
+Vitoria Da Conquista
+Vila Madre Gertrudes 1ª Seção
+Aarão Reis
+Flamengo
+Vila Santa Monica 1ª Seção
+Vila Maria
+Centro
+Belmonte
+Palmeiras
+Conjunto Celso Machado
+Padre Eustáquio
+Mariano De Abreu
+Jatobá
+Candelaria
+Vila Olhos D'água
+Grota
+Satelite
+Nova Gameleira
+Minaslandia
+Vila Jardim São José
+Nova Cachoeirinha
+Xodo-Marize
+Vista Do Sol
+Vila Maloca
+Etelvina Carneiro
+Boa União 1ª Seção
+Conjunto Taquaril
+Nossa Senhora Da Conceição
+Vila Santo Antônio Barroquinha
+Baleia
+Jaraguá
+Apolonia
+Vila Novo São Lucas
+Vila Paraíso
+Vila Fumec
+Araguaia
+Vila Jardim Alvorada
+Santa Efigênia
+Tiradentes
+Estoril
+Madre Gertrudes
+Lorena
+Indaiá
+São Jorge 2ª Seção
+Granja Werneck
+Boa Viagem
+Rio Branco
+Tres Marias
+Penha
+Comiteco
+Conjunto Floramar
+Cruzeiro
+Bandeirantes
+Granja De Freitas
+Nossa Senhora De Fátima
+São Paulo
+Santo Agostinho
+Camponesa 1ª Seção
+Vila Vista Alegre
+Santa Amelia
+Parque São Pedro
+Cardoso
+Marieta 1ª Seção
+Coqueiros
+Conjunto Jardim Filadélfia
+São José
+Vila São Gabriel
+Floresta
+Dom Bosco
+Carlos Prates
+Novo Tupi
+Bacurau
+São Tomaz
+Vitoria
+Marilandia
+Palmares
+Trevo
+Vila Pilar
+Vila Esplanada
+Liberdade
+Miramar
+Vila Sumaré
+Vila Satélite
+Parque São José
+Mangabeiras
+Jardim São José
+Tirol
+Lagoinha Leblon
+Céu Azul
+Salgado Filho
+São Gabriel
+Guaratã
+Santa Cruz
+Vila União
+Pirineus
+Outro
+Paraíso
+Vila São Dimas
+Vila Nova Cachoeirinha 1ª Seção
+Buraco Quente
+Barão Homem De Melo 1ª Seção
+Vila Coqueiral
+Vila Aeroporto Jaraguá
+Taquaril
+Monte São José
+Vila Nova Gameleira 1ª Seção
+Andiroba
+Sport Club
+Acaba Mundo
+Alto Dos Pinheiros
+Barão Homem De Melo 3ª Seção
+Vila Piratininga Venda Nova
+Nossa Senhora Aparecida
+Santa Isabel
+Cônego Pinheiro 2ª Seção
+Nova America
+Santa Branca
+Monte Azul
+Vila Puc
+Califórnia
+Campo Alegre
+São Marcos
+Vila Madre Gertrudes 4ª Seção
+Acaiaca
+Olhos D'água
+Vila Aeroporto
+Jardim Leblon
+Novo Aarão Reis
+Mala E Cuia
+Luxemburgo
+Garças
+Conjunto Paulo Vi
+Gutierrez
+Maria Virgínia
+Heliopolis
+Nova Cintra
+Anchieta
+São Gonçalo
+Boa Esperança
+Boa Vista
+São Cristóvão
+Lagoinha
+Alto Caiçaras
+Ouro Preto
+Vista Alegre
+Vila Paquetá
+Piraja
+João Alfredo
+Pilar
+Vila São Paulo
+Cinquentenário
+Vila Independencia 1ª Seção
+Diamante
+Vila Tirol
+Vila Nossa Senhora Do Rosário
+Vila Real 2ª Seção
+Cabana Do Pai Tomás
+Antonio Ribeiro De Abreu 1ª Seção
+Vila Formosa
+Concórdia
+Vila Inestan
+Olaria
+Camponesa 2ª Seção
+Ambrosina
+Horto Florestal
+Santa Tereza
+Alto Das Antenas
+Flavio Marques Lisboa
+Vila De Sá
+Leonina
+Vera Cruz
+Vila Antena
+Cidade Jardim Taquaril
+Das Industrias I
+São Pedro
+Jardim Alvorada
+Renascença
+Vila Mantiqueira
+Unidas
+Vila Copacabana
+Manacas
+Venda Nova
+Barão Homem De Melo 2ª Seção
+São Luiz
+Mirtes
+Nossa Senhora Do Rosário
+Leticia
+Flavio De Oliveira
+Virgínia
+João Paulo Ii
+Vila Santa Monica 2ª Seção
+Alpes
+Independência
+Canaa
+Caetano Furquim
+Santa Terezinha
+Santa Lúcia
+Havaí
+Nossa Senhora Da Aparecida
+Beija Flor
+Caiçaras
+Vila Sesc
+Conjunto Novo Dom Bosco
+Suzana
+Funcionários
+Santa Sofia
+Ipiranga
+Vila Nova Gameleira 3ª Seção
+Maria Tereza
+Cidade Jardim
+Pedreira Padro Lopes
+Vila Santa Rosa
+Bom Jesus
+Maria Goretti
+Vila São João Batista
+Dom Cabral
+Sagrada Família
+Marieta 3ª Seção
+Chácara Leonina
+Cenaculo
+Vila Da Paz
+Dom Silverio
+Paquetá
+Vila Piratininga
+Barreiro
+Vila São Geraldo
+Beira Linha
+Capitão Eduardo
+Laranjeiras
+Coração De Jesus
+Pindorama
+Jardim Montanhês
+Vila Ouro Minas
+Oeste
+Urca
+Graça
+Jardim Vitoria
+Pindura Saia
+Serrano
+Nazare
+Dona Clara
+Confisco
+Itaipu
+Zilah Sposito
+Vila Suzana Primeira Seção
+Coração Eucarístico
+Nova Pampulha
+Nova Vista
+Esplanada
+Conjunto Santa Maria
+Bernadete
+Pompéia
+Aeroporto
+Serra Do Curral
+São Jorge 1ª Seção
+Vila Jardim Leblon
+Universo
+Paulo Vi
+Alta Tensão 1ª Seção
+São Geraldo
+Santo André
+Vila São Gabriel Jacui
+Novo Santa Cecilia
+Alípio De Melo
+Senhor Dos Passos
+Jardim Do Vale
+São Salvador
+Frei Leopoldo
+Custodinha
+Vila São Francisco
+Jardinópolis
+Solimoes
+Aparecida 7ª Seção
+Barro Preto
+Novo Glória
+Ápia
+Pongelupe
+Fernão Dias
+Vila Ipiranga
+Santa Margarida
+Mirante
+Lindéia
+Vila Engenho Nogueira
+Santa Rita
+Vila Batik
+Gameleira
+Barroca
+São João Batista
+Álvaro Camargos
+Conjunto Minas Caixa
+Novo Ouro Preto
+Varzea Da Palma
+Castelo
+Ernesto Nascimento
+Corumbiara
+Glória
+Minas Brasil
+Pousada Santo Antonio
+Vila Da Luz
+Alta Tensão 2ª Seção
+São Francisco
+Tupi A
+Vila Independencia 3ª Seção
+Savassi
