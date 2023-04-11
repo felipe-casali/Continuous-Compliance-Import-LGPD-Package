@@ -6,7 +6,6 @@
 source apiHostInfo
 AUTH_HEADER=`cat Authorization`
 count=0
-MASKING_ENGINE=192.168.15.149
 
 while IFS="," read -r rec_column1 rec_column2 rec_column3 rec_column4 rec_column5 rec_column6
 do

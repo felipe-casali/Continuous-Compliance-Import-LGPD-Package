@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Author: Felipe Casali / Solutions Enginner
+# Contributors: Gustavo Gianini / Daniel Stolf
+
 # Clear all credentials and IP addresses
 clean_secrets(){
     > temp_profile_expressions.csv
@@ -22,7 +25,7 @@ read -r username
 echo -n "Password: "
 read -s password
 
-# Firstly Validate if any input field is left blank. If an input field is left blank, display appropriate message and stop execution of script 
+# Validate if any input field is left blank. If an input field is left blank, display appropriate message and stop execution of script 
 if [ -z "$delphix_engine" ] || [ -z "$username" ] || [ -z "$password" ]
 then 
     echo "\nInputs cannot be blank please try again!"
@@ -76,6 +79,5 @@ rc=$?
         clean_secrets
         exit 1
     fi
-fi
 
 clean_secrets
