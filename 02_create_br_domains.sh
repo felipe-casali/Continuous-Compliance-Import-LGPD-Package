@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# This script will create BR LGPD Domains from JSON file
+# This script will create BR LGPD Domains from CSV file
 #
 
 source apiHostInfo

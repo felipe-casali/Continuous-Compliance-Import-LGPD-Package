@@ -48,30 +48,34 @@ echo -e "\nStarting to import LGPD package..."
 ./Delphix_2022-09-12_Toolkit_Masking_Devkit_1.11.0/sdkTools/bin/maskScript install -j ./BR.jar  -H $delphix_engine -u $username
 rc=$?
 
-if [ $rc -eq 0 ]
-then
+    if [ $rc -eq 0 ]
+    then
 
-    echo -e "\n > LGPD Algorithms imported with success."
-    read -p "Press enter to continue importing DOMAINS, PROFILES and PROFILESET"
+        echo -e "\n > Algoritmos importados com sucesso."
+        read -p "Pressione <ENTER> para continuar o import: ALGORITHMS, DOMAINS, PROFILES e PROFILESET."
 
-    ./01_login.sh
+        ./00_login.sh
 
-    echo -e "\n > Creating Domains..."
-    ./02_create_br_domains.sh
+        echo -e "\n > Creating Algorithms..."
+        ./01_create_br_algorithms.sh
 
-    echo -e "\n > Creating Profiles..."
-    ./03_create_br_profile.sh
+        echo -e "\n > Creating Domains..."
+        ./02_create_br_domains.sh
 
-    echo -e "\n > Creating ProfileSet..."
-    ./04_create_br_profileset.sh
+        echo -e "\n > Creating Profiles..."
+        ./03_create_br_profile.sh
 
-    echo -e "\n > Congratulations. LGPD package imported with success."
-    read -p "Press enter to finish."
-else
-    echo -e "\n > Import failed. Please contact Delphix."
-    read -p "Press enter to finish."
-    clean_secrets
-    exit 1
+        echo -e "\n > Creating ProfileSet..."
+        ./04_create_br_profileset.sh
+
+        echo -e "\n > Congratulations. LGPD package imported with success."
+        read -p "Press enter to finish."
+    else
+        echo -e "\n > Import failed. Please contact Delphix."
+        read -p "Press enter to finish."
+        clean_secrets
+        exit 1
+    fi
 fi
 
 clean_secrets

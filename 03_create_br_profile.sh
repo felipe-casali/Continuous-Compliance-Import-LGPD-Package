@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# This script will create BR LGPD Profiles from JSON file
+# This script will create BR LGPD Profiles from CSV file
 #
 
 source apiHostInfo
@@ -21,7 +21,7 @@ do
         rc=$?
         if [ $rc -eq 0 ]
         then
-            cat profile_expression_id.txt | awk -F':' '{ print $2 }' | awk -F',' '{print $1}' >> lista_prof_exp_ids.txt
+            cat profile_expression_id.txt | grep -v "Profile" | awk -F':' '{ print $2 }' | awk -F',' '{print $1}' >> lista_prof_exp_ids.txt
         fi
 done < temp_profile_expressions.csv
 
