@@ -1,4 +1,4 @@
-"algorithmName","algorithmType","description","pluginId","frameworkId","lookupFile"
+"algorithmName","pluginId","description","algorithmType","frameworkId","lookupFile"
 BR_BAIRROS,3,,COMPONENT,7,/SL_lists/BAIRROS_BR_SL.txt
 BR_UF,3,,COMPONENT,7,/SL_lists/SIGLAS_UF_BR_SL.txt
 BR_CIDADES,3,,COMPONENT,7,/SL_lists/CIDADES_BR_SL.txt
