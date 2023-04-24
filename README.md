@@ -3,9 +3,16 @@ Import LGPD Algorithms, Domains, ProfileExpressions and ProfileSet
 
 This project was developed to help and accelerate the import of LGPD data into your Delphix Continuous Compliance Engine (Masking)
 
+This script can be executed on any linux server as long as you have installed the packages below:
+
+- jq
+- JRE 1.8
+
+If you don't have an avaible Linux with the prerequisites above, the installation can be done directly on the Delphix Continuous Compliance VM.
+
 Instructions:
 
-1 - Login on the Delphix Continuous Compliance Engine via SSH using the delphix user
+1 - Login on the Delphix Continuous Compliance Engine via SSH using the delphix user. Or connect to anuy other Linux machine with the mentioned pre-reqs.
 
 2 - Download a copy this project using the following command:
 
