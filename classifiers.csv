@@ -1,2 +1,2 @@
-"domainName","classifierName","description","regex","matchStrength"
-BR_CEP,CEP_Type,Identifica CEP por tipo de dado,...
+"domainName","classifierName","description","matchStrength","regex"
+BR_CEP,CEP_Type,CEP Data Level,0.7,"[A-Za-z0-9]*"
