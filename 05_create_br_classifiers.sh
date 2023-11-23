@@ -15,8 +15,7 @@ do
         #echo $expressionName
         #echo $regularExpression
         #echo $dataLevelProfiling    # Print values read in variable
-        curl -X POST --output classifier_id.txt --header ''"$AUTH_HEADER"'' --header 'Content-Type: application/json' --header 'Accept: application/json' 
-        --data "{\"domainName\": $domainName, \"classifierName\": $classifierName, \"dataLevelProfiling\": $dataLevelProfiling , \"matchStrength\": $matchStrength, \"regex\": $regex}" "http://$MASKING_ENGINE/masking/api/classifiers"
+        curl -X POST --output classifier_id.txt --header ''"$AUTH_HEADER"'' --header 'Content-Type: application/json' --header 'Accept: application/json' --data "{\"domainName\": $domainName, \"classifierName\": $classifierName, \"dataLevelProfiling\": $dataLevelProfiling , \"matchStrength\": $matchStrength, \"regex\": $regex}" "http://$MASKING_ENGINE/masking/api/classifiers"
         rc=$?
         if [ $rc -eq 0 ]
         then

@@ -71,10 +71,10 @@ rc=$?
         echo -e "\n > Creating ProfileSet..."
         ./04_create_br_profileset.sh
 
-        echo -e "\n > Creating ProfileSet..."
+        echo -e "\n > Creating Classifiers..."
         ./05_create_br_classifiers.sh
         
-        echo -e "\n > Creating ProfileSet..."
+        echo -e "\n > Creating Type Expressions..."
         ./06_create_br_typeexpressions.sh
 
         echo -e "\n > Congratulations. LGPD package imported with success."
