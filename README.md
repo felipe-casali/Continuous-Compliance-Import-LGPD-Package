@@ -26,7 +26,13 @@ unzip main.zip
 
 cd Continuous-Compliance-Import-LGPD-Package-main
 
-5 - Execute the ./import_lgpd.sh script and follow the instructions
+5 - Execute one of the following options:
+
+5.1 - Import the complete LGPD package. Recommended for implementations
+ ./import_lgpd.sh
+
+5.2 - Import the LGPD MINI package. Recommended for POVs.
+./import_lgpd_mini.sh
 
 NOTE THAT THE SCRIPT WILL ASK THE USER PASSWORD TWICE.
 
