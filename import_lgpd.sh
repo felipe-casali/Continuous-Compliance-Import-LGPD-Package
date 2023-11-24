@@ -11,7 +11,7 @@ clean_secrets(){
 }
 
 # Generate a temp profile expressions csv with the mandatory additional escapes
-cat profile_expressions.csv | sed 's/\\/\\\\\\\\/g' > temp_profile_expressions.csv
+cat ./CSV/profile_expressions.csv | sed 's/\\/\\\\\\\\/g' > ./TEMP/temp_profile_expressions.csv
 
 echo -e "Before starting to import the LGPD package, let's connect to your Delphix Continuous Data engine:\n"
 
