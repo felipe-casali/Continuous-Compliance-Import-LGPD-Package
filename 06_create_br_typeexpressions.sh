@@ -1,4 +1,5 @@
 #!/bin/bash
+#set -x
 set -euo pipefail
 #
 # This script will create BR LGPD Profile Type Expressions
@@ -21,6 +22,6 @@ do
         then
             cat type_expression_id.txt | grep -v "Profile" | awk -F':' '{ print $2 }' | awk -F',' '{print $1}' >> lista_type_exp_ids.txt
         fi
-done < type_expression.csv
+done < ./CSV/type_expression.csv
 
 exit 0

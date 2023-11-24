@@ -23,7 +23,7 @@ do
     #Create the Algorithm
     curl -X POST --header "$AUTH_HEADER" --header 'Content-Type: application/json' --header 'Accept: application/json' --data "{\"algorithmName\": \"$ALG_NAME\", \"algorithmType\": \"COMPONENT\", \"description\": \"teste\", \"pluginId\": 7, \"frameworkId\": \"$frameworkId\", \"algorithmExtension\": { \"lookupFile\": { \"uri\": \"$fileReferenceId\" } } }" "http://$MASKING_ENGINE/masking/api/algorithms"
     count=$(( count + 1 ))
-done < <(tail -n +2 algorithms.csv)
+done < <(tail -n +2 ./CSV/algorithms.csv)
 
 echo "Created $count of $count Algorithms with success."
 exit 0

@@ -5,15 +5,15 @@
 
 # Clear all credentials and IP addresses
 clean_secrets(){
-    > temp_profile_expressions.csv
-    > temp_profile_expressions_mini.csv
+    > ./TEMP/temp_profile_expressions.csv
+    > ./TEMP/temp_profile_expressions_mini.csv
     > apiHostInfo
     > loginCredentials.json
 }
 
 # Generate a temp profile expressions csv with the mandatory additional escapes
 # Included a head command to capture the first 9 lines
-cat profile_expressions.csv | head -9 | sed 's/\\/\\\\\\\\/g' > temp_profile_expressions_mini.csv
+cat ./CSV/profile_expressions.csv | head -9 | sed 's/\\/\\\\\\\\/g' > ./TEMP/temp_profile_expressions_mini.csv
 
 echo -e "Before starting to import the LGPD package, let's connect to your Delphix Continuous Data engine:\n"
 

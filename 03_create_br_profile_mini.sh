@@ -23,6 +23,6 @@ do
         then
             cat profile_expression_id.txt | grep -v "Profile" | awk -F':' '{ print $2 }' | awk -F',' '{print $1}' >> lista_prof_exp_ids.txt
         fi
-done < temp_profile_expressions_mini.csv
+done < ./TEMP/temp_profile_expressions_mini.csv
 
 exit 0

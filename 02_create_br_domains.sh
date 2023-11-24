@@ -16,7 +16,7 @@ do
     curl -X POST --header ''"$AUTH_HEADER"'' --header 'Content-Type: application/json' --header 'Accept: application/json' --data "{\"domainName\": $DOMAIN_NAME, \"defaultAlgorithmCode\": $ALG_NAME}" "http://$MASKING_ENGINE/masking/api/domains"
     echo " "
     count=$(( $count + 1 ))
-done < <(tail -n +2 domains.csv)
+done < <(tail -n +2 ./CSV/domains.csv)
 
 echo "Created $count of $count Domains with success."
 exit 0

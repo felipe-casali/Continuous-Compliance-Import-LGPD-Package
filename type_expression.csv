@@ -1,3 +1,0 @@
-"domainName","typeExpressionName","dataType","minDataLength"
-BR_CEP,CEP_Type_S,String,9
-BR_CEP,CEP_Type_N,Number,8
