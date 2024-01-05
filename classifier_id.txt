@@ -1,0 +1,1 @@
+{"classifierId":152,"classifierName":"CEP_Type","description":"CEP Data Level","frameworkId":1,"domainName":"BR_CEP","createdBy":"admin","classifierConfiguration":{"dataPatterns":[{"regex":"[A-Za-z0-9]*","checksumType":"NONE","caseSensitive":false,"matchStrength":0.7,"allowPartialMatch":true}],"rejectStrength":1.0}}

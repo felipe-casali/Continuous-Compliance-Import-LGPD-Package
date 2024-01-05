@@ -74,10 +74,10 @@ rc=$?
         ./04_create_br_profileset_mini.sh
 
                 echo -e "\n > Creating ProfileSet..."
-        ./05_create_br_classifiers_mini.sh
+        ./05_create_br_classifiers.sh
         
         echo -e "\n > Creating ProfileSet..."
-        ./06_create_br_typeexpressions_mini.sh
+        ./06_create_br_typeexpressions.sh
 
         echo -e "\n > Congratulations. LGPD package imported with success."
         read -p "Press enter to finish."

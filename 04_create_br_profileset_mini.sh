@@ -10,7 +10,7 @@ AUTH_HEADER=`cat Authorization`
 # TODO - Filtrar os ID's dos Profiles criados, e atualizar o json
 
 # Create list of profiler expression IDs with comma
-lista=`tr "\n" ","  < lista_prof_exp_ids.txt | sed 's/,$//'`
+lista=`tr "\n" ","  < lista_prof_exp_ids_mini.txt | sed 's/,$//'`
 
 echo $lista
 

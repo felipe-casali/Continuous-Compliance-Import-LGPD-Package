@@ -1,0 +1,1 @@
+{"profileExpressionId":155,"domainName":"BR_CEP","typeExpressionName":"CEP_Type_N","dataType":"Number","minDataLength":8,"createdBy":"admin"}

@@ -8,7 +8,7 @@ source apiHostInfo
 AUTH_HEADER=`cat Authorization`
 count=0
 
-> lista_prof_exp_ids.txt
+> lista_prof_exp_ids_mini.txt
 
 while IFS=$'\t' read domainName expressionName regularExpression dataLevelProfiling
 do
@@ -21,7 +21,7 @@ do
         rc=$?
         if [ $rc -eq 0 ]
         then
-            cat profile_expression_id.txt | grep -v "Profile" | awk -F':' '{ print $2 }' | awk -F',' '{print $1}' >> lista_prof_exp_ids.txt
+            cat profile_expression_id.txt | grep -v "Profile" | awk -F':' '{ print $2 }' | awk -F',' '{print $1}' >> lista_prof_exp_ids_mini.txt
         fi
 done < ./TEMP/temp_profile_expressions_mini.csv
 
