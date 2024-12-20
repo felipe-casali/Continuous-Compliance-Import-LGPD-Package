@@ -14,3 +14,4 @@
 "BR_CIDADE","BR_CIDADES"
 "BR_UF","BR_UF"
 "BR_EMPRESA","BusinessLegalEntityLookup"
+"BR_RG","dlpx-core:CM Alpha-Numeric"
