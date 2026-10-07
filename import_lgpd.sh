@@ -14,6 +14,20 @@ clean_secrets(){
 # Generate a temp profile expressions csv with the mandatory additional escapes
 #cat ./CSV/profile_expressions.csv | sed 's/\\/\\\\\\\\/g' > ./TEMP/temp_profile_expressions.csv
 
+echo "Select the target Delphix Masking Engine version:"
+echo "1) 2025.5.0.0 or later (Java 17)"
+echo "2) Earlier releases using Java 8"
+read -r -p "Enter 1 or 2: " engine_generation
+
+case "$engine_generation" in
+    1) plugin_jar="./BR-java17.jar" ;;
+    2) plugin_jar="./BR-java8.jar" ;;
+    *)
+        echo "Invalid selection. Choose 1 or 2."
+        exit 1
+        ;;
+esac
+
 echo -e "Before starting to import the LGPD package, let's connect to your Delphix Continuous Data engine:\n"
 
 # Ask for the credentials for the masking engine
@@ -49,7 +63,7 @@ read -p "The Masking Engine password will be asked once more. Press enter to con
 
 echo -e "\nStarting to import LGPD package..."
 
-./Delphix_2022-09-12_Toolkit_Masking_Devkit_1.11.0/sdkTools/bin/maskScript install -j ./BR.jar  -H $delphix_engine -u $username
+./Delphix_2022-09-12_Toolkit_Masking_Devkit_1.11.0/sdkTools/bin/maskScript install -j "$plugin_jar" -H $delphix_engine -u $username
 rc=$?
 
     if [ $rc -eq 0 ]

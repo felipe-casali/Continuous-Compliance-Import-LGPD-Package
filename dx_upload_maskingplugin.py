@@ -124,7 +124,7 @@ print(url)
 
 payload={}
 files=[
-  ('file',('BR.jar',open('/Users/felipe.casali/Desktop/Continuous-Compliance-Import-LGPD-Package/BR.jar','rb'),'application/java-archive'))
+  ('file',(os.path.basename(DX_PLUGINFILE),open(DX_PLUGINFILE,'rb'),'application/java-archive'))
 ]
 headers = authj
 
