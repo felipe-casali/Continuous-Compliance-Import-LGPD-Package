@@ -3,12 +3,22 @@ Import LGPD Algorithms, Domains, ProfileExpressions and ProfileSet
 
 This project was developed to help and accelerate the import of LGPD data into your Delphix Continuous Compliance Engine (Masking)
 
-This script can be executed on any linux server as long as you have installed the packages below:
+This script can be executed on any Linux server with `jq` and a Java runtime compatible with the target Delphix Masking Engine version:
 
 - jq
-- JRE 1.8
+- Java 17 for Delphix Masking 2025.5.0.0 or later
+- Java 8 for earlier Delphix Masking releases that use Java 8
 
-If you don't have an avaible Linux with the prerequisites above, the installation can be done directly on the Delphix Continuous Compliance VM.
+The repository includes both BR plugin archives. Use the archive that matches the target engine:
+
+| Target Delphix Masking version | Java version | Plugin archive |
+| --- | --- | --- |
+| 2025.5.0.0 or later | 17 | `BR-java17.jar` |
+| Earlier releases that use Java 8 | 8 | `BR-java8.jar` |
+
+The complete import script asks which engine generation you are using and installs the matching archive. Do not install the Java 17 archive on an earlier Java 8 engine.
+
+If you don't have an available Linux server with the prerequisites above, the installation can be done directly on the Delphix Continuous Compliance VM.
 
 Instructions:
 
