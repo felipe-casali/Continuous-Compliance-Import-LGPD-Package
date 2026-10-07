@@ -6,14 +6,14 @@ This project was developed to help and accelerate the import of LGPD data into y
 This script can be executed on any Linux server with `jq` and a Java runtime compatible with the target Delphix Masking Engine version:
 
 - jq
-- Java 17 for Delphix Masking 2025.5.0.0 or later
+- Java 17 for Delphix Masking 2026.5.0.0 or later
 - Java 8 for earlier Delphix Masking releases that use Java 8
 
 The repository includes both BR plugin archives. Use the archive that matches the target engine:
 
 | Target Delphix Masking version | Java version | Plugin archive |
 | --- | --- | --- |
-| 2025.5.0.0 or later | 17 | `BR-java17.jar` |
+| 2026.5.0.0 or later | 17 | `BR-java17.jar` |
 | Earlier releases that use Java 8 | 8 | `BR-java8.jar` |
 
 The complete import script asks which engine generation you are using and installs the matching archive. Do not install the Java 17 archive on an earlier Java 8 engine.
