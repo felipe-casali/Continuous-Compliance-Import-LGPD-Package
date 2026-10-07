@@ -18,6 +18,8 @@ The repository includes both BR plugin archives. Use the archive that matches th
 
 The complete import script asks which engine generation you are using and installs the matching archive. Do not install the Java 17 archive on an earlier Java 8 engine.
 
+The BR plugin archives include automatic document identification before masking, with validation for CPF, numeric CNPJ, and alphanumeric CNPJ.
+
 If you don't have an available Linux server with the prerequisites above, the installation can be done directly on the Delphix Continuous Compliance VM.
 
 Instructions:
