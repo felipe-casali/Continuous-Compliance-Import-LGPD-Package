@@ -1,0 +1,68 @@
+{
+  "algorithmName": "BR_NOMES",
+  "algorithmType": "COMPONENT",
+  "frameworkId": "{{FW:Regex Decompose}}",
+  "algorithmExtension": {
+    "maskPatterns": [
+      {
+        "regex": "(\\S+)",
+        "actions": [
+          {
+            "type": "APPLY_ALGORITHM",
+            "algorithm": {
+              "name": "{{ALG:BR_PALAVRA_NOME}}"
+            }
+          }
+        ]
+      },
+      {
+        "regex": "(\\S+)\\s+(\\S+)",
+        "actions": [
+          {
+            "type": "APPLY_ALGORITHM",
+            "algorithm": {
+              "name": "{{ALG:BR_PALAVRA_NOME}}"
+            }
+          },
+          {
+            "type": "APPLY_ALGORITHM",
+            "algorithm": {
+              "name": "{{ALG:BR_PALAVRA_NOME}}"
+            }
+          }
+        ]
+      },
+      {
+        "regex": "(\\S+)\\s+(\\S+)\\s+(\\S+)",
+        "actions": [
+          {
+            "type": "APPLY_ALGORITHM",
+            "algorithm": {
+              "name": "{{ALG:BR_PALAVRA_NOME}}"
+            }
+          },
+          {
+            "type": "APPLY_ALGORITHM",
+            "algorithm": {
+              "name": "{{ALG:BR_PALAVRA_NOME}}"
+            }
+          },
+          {
+            "type": "APPLY_ALGORITHM",
+            "algorithm": {
+              "name": "{{ALG:BR_PALAVRA_NOME}}"
+            }
+          }
+        ]
+      }
+    ],
+    "fallbackAction": {
+      "type": "APPLY_ALGORITHM",
+      "algorithm": {
+        "name": "{{ALG:BR_CM_ALFANUM}}"
+      }
+    },
+    "trimInput": true,
+    "requireMask": false
+  }
+}

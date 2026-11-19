@@ -1,0 +1,19 @@
+{
+  "classifierName": "BR_L1_ENDERECO_COMPLEMENTO - Path",
+  "domainName": "BR_L1_ENDERECO_COMPLEMENTO",
+  "frameworkId": "{{CFW:PATH}}",
+  "classifierConfiguration": {
+    "paths": [
+      {
+        "matchType": "REGEX",
+        "fieldValue": "(?i)(?<![a-z])(?:complemento(_?endereco)?|compl|n(r|u|um|o|ro|umero)_?(endereco|casa|residencia|imovel|logradouro)|numero_?(end|lograd)|num_?casa|apto|apartamento|bloco|lote|quadra|casa_?(numero|num|nr)|house_?number|apartment|unit_?number)(?![a-z])",
+        "parentValue": "",
+        "matchStrength": 0.7,
+        "caseSensitive": false,
+        "allowPartialMatch": true
+      }
+    ],
+    "rejectStrength": 0
+  },
+  "description": "Nome da coluna e variantes usadas em sistemas brasileiros."
+}

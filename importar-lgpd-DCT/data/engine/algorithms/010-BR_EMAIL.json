@@ -1,0 +1,38 @@
+{
+  "algorithmName": "BR_EMAIL",
+  "algorithmType": "COMPONENT",
+  "frameworkId": "{{FW:Regex Decompose}}",
+  "algorithmExtension": {
+    "maskPatterns": [
+      {
+        "regex": "([^@\\s]+)@([^@\\s]+)\\.([A-Za-z]{2,24}(?:\\.[A-Za-z]{2})?)",
+        "actions": [
+          {
+            "type": "APPLY_ALGORITHM",
+            "algorithm": {
+              "name": "{{ALG:BR_CM_ALFANUM}}"
+            }
+          },
+          {
+            "type": "APPLY_ALGORITHM",
+            "algorithm": {
+              "name": "{{ALG:BR_CM_ALFANUM}}"
+            }
+          },
+          {
+            "type": "REDACT",
+            "redactString": "test"
+          }
+        ]
+      }
+    ],
+    "fallbackAction": {
+      "type": "APPLY_ALGORITHM",
+      "algorithm": {
+        "name": "{{ALG:BR_CM_ALFANUM}}"
+      }
+    },
+    "trimInput": true,
+    "requireMask": false
+  }
+}

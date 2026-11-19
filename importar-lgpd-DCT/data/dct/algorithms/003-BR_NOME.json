@@ -1,0 +1,12 @@
+{
+  "name": "BR_NOME",
+  "framework_id": "{{FW:Name}}",
+  "config": {
+    "lookupFile": {
+      "uri": "{{FILE:br-nomes.txt}}"
+    },
+    "maskedValueCase": "PRESERVE_INPUT",
+    "filterAccent": true,
+    "inputCaseSensitive": false
+  }
+}

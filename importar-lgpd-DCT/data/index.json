@@ -1,0 +1,389 @@
+{
+  "format": 1,
+  "id": "lgpd-essencial-br",
+  "version": 1,
+  "versionDate": "2026-11-19",
+  "name": {
+    "en": "LGPD - essential",
+    "pt-BR": "LGPD - essencial",
+    "es": "LGPD - esencial"
+  },
+  "policy": {
+    "name": "BR - LGPD - essencial",
+    "threshold": 60,
+    "files": {
+      "extended": "policy/extended.json"
+    }
+  },
+  "algorithms": [
+    {
+      "name": "BR_CM_DIGITOS",
+      "framework": "Character Mapping",
+      "file": "algorithms/001-BR_CM_DIGITOS.json"
+    },
+    {
+      "name": "BR_CM_ALFANUM",
+      "framework": "Character Mapping",
+      "file": "algorithms/002-BR_CM_ALFANUM.json"
+    },
+    {
+      "name": "BR_NOME",
+      "framework": "Name",
+      "file": "algorithms/003-BR_NOME.json"
+    },
+    {
+      "name": "BR_PALAVRA_NOME",
+      "framework": "Regex Decompose",
+      "file": "algorithms/004-BR_PALAVRA_NOME.json"
+    },
+    {
+      "name": "BR_NOMES",
+      "framework": "Regex Decompose",
+      "file": "algorithms/005-BR_NOMES.json"
+    },
+    {
+      "name": "BR_SOBRENOME",
+      "framework": "Name",
+      "file": "algorithms/006-BR_SOBRENOME.json"
+    },
+    {
+      "name": "BR_PALAVRA_SOBRENOME",
+      "framework": "Regex Decompose",
+      "file": "algorithms/007-BR_PALAVRA_SOBRENOME.json"
+    },
+    {
+      "name": "BR_SOBRENOMES",
+      "framework": "Regex Decompose",
+      "file": "algorithms/008-BR_SOBRENOMES.json"
+    },
+    {
+      "name": "BR_NOME_COMPLETO",
+      "framework": "Regex Decompose",
+      "file": "algorithms/009-BR_NOME_COMPLETO.json"
+    },
+    {
+      "name": "BR_EMAIL",
+      "framework": "Regex Decompose",
+      "file": "algorithms/010-BR_EMAIL.json"
+    },
+    {
+      "name": "BR_ENDERECO",
+      "framework": "Secure Lookup",
+      "file": "algorithms/011-BR_ENDERECO.json"
+    },
+    {
+      "name": "BR_DATA_NASCIMENTO",
+      "framework": "Date Shift",
+      "file": "algorithms/012-BR_DATA_NASCIMENTO.json"
+    },
+    {
+      "name": "BR_CEP",
+      "framework": "Regex Decompose",
+      "file": "algorithms/013-BR_CEP.json"
+    }
+  ],
+  "dataClasses": [
+    {
+      "name": "BR_L1_CPF",
+      "file": "data-classes/001-BR_L1_CPF.json"
+    },
+    {
+      "name": "BR_L1_CNPJ",
+      "file": "data-classes/002-BR_L1_CNPJ.json"
+    },
+    {
+      "name": "BR_L1_RG",
+      "file": "data-classes/003-BR_L1_RG.json"
+    },
+    {
+      "name": "BR_L1_CNH",
+      "file": "data-classes/004-BR_L1_CNH.json"
+    },
+    {
+      "name": "BR_L1_PASSAPORTE",
+      "file": "data-classes/005-BR_L1_PASSAPORTE.json"
+    },
+    {
+      "name": "BR_L1_NOME",
+      "file": "data-classes/006-BR_L1_NOME.json"
+    },
+    {
+      "name": "BR_L1_SOBRENOME",
+      "file": "data-classes/007-BR_L1_SOBRENOME.json"
+    },
+    {
+      "name": "BR_L1_NOME_COMPLETO",
+      "file": "data-classes/008-BR_L1_NOME_COMPLETO.json"
+    },
+    {
+      "name": "BR_L1_EMAIL",
+      "file": "data-classes/009-BR_L1_EMAIL.json"
+    },
+    {
+      "name": "BR_L1_TELEFONE",
+      "file": "data-classes/010-BR_L1_TELEFONE.json"
+    },
+    {
+      "name": "BR_L1_ENDERECO",
+      "file": "data-classes/011-BR_L1_ENDERECO.json"
+    },
+    {
+      "name": "BR_L1_ENDERECO_COMPLEMENTO",
+      "file": "data-classes/012-BR_L1_ENDERECO_COMPLEMENTO.json"
+    },
+    {
+      "name": "BR_L2_DATA_NASCIMENTO",
+      "file": "data-classes/013-BR_L2_DATA_NASCIMENTO.json"
+    },
+    {
+      "name": "BR_L2_CEP",
+      "file": "data-classes/014-BR_L2_CEP.json"
+    }
+  ],
+  "classifiers": [
+    {
+      "name": "BR_L1_CPF - Path",
+      "dataClass": "BR_L1_CPF",
+      "file": "classifiers/001-BR_L1_CPF_-_Path.json"
+    },
+    {
+      "name": "BR_L1_CPF - Type",
+      "dataClass": "BR_L1_CPF",
+      "file": "classifiers/002-BR_L1_CPF_-_Type.json"
+    },
+    {
+      "name": "BR_L1_CPF - Regex",
+      "dataClass": "BR_L1_CPF",
+      "file": "classifiers/003-BR_L1_CPF_-_Regex.json"
+    },
+    {
+      "name": "BR_L1_CNPJ - Path",
+      "dataClass": "BR_L1_CNPJ",
+      "file": "classifiers/004-BR_L1_CNPJ_-_Path.json"
+    },
+    {
+      "name": "BR_L1_CNPJ - Type",
+      "dataClass": "BR_L1_CNPJ",
+      "file": "classifiers/005-BR_L1_CNPJ_-_Type.json"
+    },
+    {
+      "name": "BR_L1_CNPJ - Regex",
+      "dataClass": "BR_L1_CNPJ",
+      "file": "classifiers/006-BR_L1_CNPJ_-_Regex.json"
+    },
+    {
+      "name": "BR_L1_RG - Path",
+      "dataClass": "BR_L1_RG",
+      "file": "classifiers/007-BR_L1_RG_-_Path.json"
+    },
+    {
+      "name": "BR_L1_RG - Regex",
+      "dataClass": "BR_L1_RG",
+      "file": "classifiers/008-BR_L1_RG_-_Regex.json"
+    },
+    {
+      "name": "BR_L1_CNH - Path",
+      "dataClass": "BR_L1_CNH",
+      "file": "classifiers/009-BR_L1_CNH_-_Path.json"
+    },
+    {
+      "name": "BR_L1_PASSAPORTE - Path",
+      "dataClass": "BR_L1_PASSAPORTE",
+      "file": "classifiers/010-BR_L1_PASSAPORTE_-_Path.json"
+    },
+    {
+      "name": "BR_L1_PASSAPORTE - Regex",
+      "dataClass": "BR_L1_PASSAPORTE",
+      "file": "classifiers/011-BR_L1_PASSAPORTE_-_Regex.json"
+    },
+    {
+      "name": "BR_L1_NOME - Path",
+      "dataClass": "BR_L1_NOME",
+      "file": "classifiers/012-BR_L1_NOME_-_Path.json"
+    },
+    {
+      "name": "BR_L1_NOME - List",
+      "dataClass": "BR_L1_NOME",
+      "file": "classifiers/013-BR_L1_NOME_-_List.json"
+    },
+    {
+      "name": "BR_L1_SOBRENOME - Path",
+      "dataClass": "BR_L1_SOBRENOME",
+      "file": "classifiers/014-BR_L1_SOBRENOME_-_Path.json"
+    },
+    {
+      "name": "BR_L1_SOBRENOME - List",
+      "dataClass": "BR_L1_SOBRENOME",
+      "file": "classifiers/015-BR_L1_SOBRENOME_-_List.json"
+    },
+    {
+      "name": "BR_L1_NOME_COMPLETO - Path",
+      "dataClass": "BR_L1_NOME_COMPLETO",
+      "file": "classifiers/016-BR_L1_NOME_COMPLETO_-_Path.json"
+    },
+    {
+      "name": "BR_L1_NOME_COMPLETO - List",
+      "dataClass": "BR_L1_NOME_COMPLETO",
+      "file": "classifiers/017-BR_L1_NOME_COMPLETO_-_List.json"
+    },
+    {
+      "name": "BR_L1_EMAIL - Path",
+      "dataClass": "BR_L1_EMAIL",
+      "file": "classifiers/018-BR_L1_EMAIL_-_Path.json"
+    },
+    {
+      "name": "BR_L1_EMAIL - Type",
+      "dataClass": "BR_L1_EMAIL",
+      "file": "classifiers/019-BR_L1_EMAIL_-_Type.json"
+    },
+    {
+      "name": "BR_L1_EMAIL - Regex",
+      "dataClass": "BR_L1_EMAIL",
+      "file": "classifiers/020-BR_L1_EMAIL_-_Regex.json"
+    },
+    {
+      "name": "BR_L1_TELEFONE - Path",
+      "dataClass": "BR_L1_TELEFONE",
+      "file": "classifiers/021-BR_L1_TELEFONE_-_Path.json"
+    },
+    {
+      "name": "BR_L1_TELEFONE - Regex",
+      "dataClass": "BR_L1_TELEFONE",
+      "file": "classifiers/022-BR_L1_TELEFONE_-_Regex.json"
+    },
+    {
+      "name": "BR_L1_ENDERECO - Path",
+      "dataClass": "BR_L1_ENDERECO",
+      "file": "classifiers/023-BR_L1_ENDERECO_-_Path.json"
+    },
+    {
+      "name": "BR_L1_ENDERECO - Type",
+      "dataClass": "BR_L1_ENDERECO",
+      "file": "classifiers/024-BR_L1_ENDERECO_-_Type.json"
+    },
+    {
+      "name": "BR_L1_ENDERECO - Regex",
+      "dataClass": "BR_L1_ENDERECO",
+      "file": "classifiers/025-BR_L1_ENDERECO_-_Regex.json"
+    },
+    {
+      "name": "BR_L1_ENDERECO_COMPLEMENTO - Path",
+      "dataClass": "BR_L1_ENDERECO_COMPLEMENTO",
+      "file": "classifiers/026-BR_L1_ENDERECO_COMPLEMENTO_-_Path.json"
+    },
+    {
+      "name": "BR_L2_DATA_NASCIMENTO - Path",
+      "dataClass": "BR_L2_DATA_NASCIMENTO",
+      "file": "classifiers/027-BR_L2_DATA_NASCIMENTO_-_Path.json"
+    },
+    {
+      "name": "BR_L2_DATA_NASCIMENTO - Type",
+      "dataClass": "BR_L2_DATA_NASCIMENTO",
+      "file": "classifiers/028-BR_L2_DATA_NASCIMENTO_-_Type.json"
+    },
+    {
+      "name": "BR_L2_CEP - Path",
+      "dataClass": "BR_L2_CEP",
+      "file": "classifiers/029-BR_L2_CEP_-_Path.json"
+    },
+    {
+      "name": "BR_L2_CEP - Regex",
+      "dataClass": "BR_L2_CEP",
+      "file": "classifiers/030-BR_L2_CEP_-_Regex.json"
+    }
+  ],
+  "files": [
+    "br-detectar-nomes.txt",
+    "br-detectar-sobrenomes.txt",
+    "br-enderecos.txt",
+    "br-nomes.txt",
+    "br-sobrenomes.txt"
+  ],
+  "builtins": {},
+  "packs": {
+    "extended": {
+      "algorithms": [
+        "BR_CM_DIGITOS",
+        "BR_CM_ALFANUM",
+        "BR_NOMES",
+        "BR_PALAVRA_NOME",
+        "BR_NOME",
+        "BR_SOBRENOMES",
+        "BR_PALAVRA_SOBRENOME",
+        "BR_SOBRENOME",
+        "BR_NOME_COMPLETO",
+        "BR_EMAIL",
+        "BR_ENDERECO",
+        "BR_DATA_NASCIMENTO",
+        "BR_CEP"
+      ],
+      "dataClasses": [
+        "BR_L1_CPF",
+        "BR_L1_CNPJ",
+        "BR_L1_RG",
+        "BR_L1_CNH",
+        "BR_L1_PASSAPORTE",
+        "BR_L1_NOME",
+        "BR_L1_SOBRENOME",
+        "BR_L1_NOME_COMPLETO",
+        "BR_L1_EMAIL",
+        "BR_L1_TELEFONE",
+        "BR_L1_ENDERECO",
+        "BR_L1_ENDERECO_COMPLEMENTO",
+        "BR_L2_DATA_NASCIMENTO",
+        "BR_L2_CEP"
+      ],
+      "classifiers": [
+        "BR_L1_CPF - Path",
+        "BR_L1_CPF - Type",
+        "BR_L1_CPF - Regex",
+        "BR_L1_CNPJ - Path",
+        "BR_L1_CNPJ - Type",
+        "BR_L1_CNPJ - Regex",
+        "BR_L1_RG - Path",
+        "BR_L1_RG - Regex",
+        "BR_L1_CNH - Path",
+        "BR_L1_PASSAPORTE - Path",
+        "BR_L1_PASSAPORTE - Regex",
+        "BR_L1_NOME - Path",
+        "BR_L1_NOME - List",
+        "BR_L1_SOBRENOME - Path",
+        "BR_L1_SOBRENOME - List",
+        "BR_L1_NOME_COMPLETO - Path",
+        "BR_L1_NOME_COMPLETO - List",
+        "BR_L1_EMAIL - Path",
+        "BR_L1_EMAIL - Type",
+        "BR_L1_EMAIL - Regex",
+        "BR_L1_TELEFONE - Path",
+        "BR_L1_TELEFONE - Regex",
+        "BR_L1_ENDERECO - Path",
+        "BR_L1_ENDERECO - Type",
+        "BR_L1_ENDERECO - Regex",
+        "BR_L1_ENDERECO_COMPLEMENTO - Path",
+        "BR_L2_DATA_NASCIMENTO - Path",
+        "BR_L2_DATA_NASCIMENTO - Type",
+        "BR_L2_CEP - Path",
+        "BR_L2_CEP - Regex"
+      ],
+      "files": [
+        "br-detectar-nomes.txt",
+        "br-detectar-sobrenomes.txt",
+        "br-enderecos.txt",
+        "br-nomes.txt",
+        "br-sobrenomes.txt"
+      ]
+    }
+  },
+  "plugins": {
+    "BR:CpfCnpj": {
+      "plugin": "BR",
+      "name": "CpfCnpj",
+      "framework": "CpfCnpj"
+    },
+    "BR:Telefone": {
+      "plugin": "BR",
+      "name": "Telefone",
+      "framework": "Telefone"
+    }
+  }
+}

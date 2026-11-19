@@ -1,0 +1,19 @@
+{
+  "classifierName": "BR_L1_CNPJ - Path",
+  "domainName": "BR_L1_CNPJ",
+  "frameworkId": "{{CFW:PATH}}",
+  "classifierConfiguration": {
+    "paths": [
+      {
+        "matchType": "REGEX",
+        "fieldValue": "(?i)(?<![a-z])(?:cnpj[a-z0-9_]*|c_?n_?p_?j|cgc|n(r|u|um|o|ro|umero)_?cnpj|cadastro_?nacional_?(da_?)?pessoa_?juridica|(empresa|emp|fornecedor|forn|cliente|cli|empregador|estabelecimento|estab|prestador|tomador|emitente|emissor|destinatario|dest|transportadora|operadora|mei|matriz|filial)_?cnpj)(?![a-z])",
+        "parentValue": "",
+        "matchStrength": 0.9,
+        "caseSensitive": false,
+        "allowPartialMatch": true
+      }
+    ],
+    "rejectStrength": 0
+  },
+  "description": "Nome da coluna e variantes usadas em sistemas brasileiros."
+}

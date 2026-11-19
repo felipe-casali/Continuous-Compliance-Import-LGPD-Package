@@ -1,0 +1,12 @@
+{
+  "name": "BR_SOBRENOME",
+  "framework_id": "{{FW:Name}}",
+  "config": {
+    "lookupFile": {
+      "uri": "{{FILE:br-sobrenomes.txt}}"
+    },
+    "maskedValueCase": "PRESERVE_INPUT",
+    "filterAccent": true,
+    "inputCaseSensitive": false
+  }
+}

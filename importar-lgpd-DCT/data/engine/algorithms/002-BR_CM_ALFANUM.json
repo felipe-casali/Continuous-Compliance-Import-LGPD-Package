@@ -1,0 +1,19 @@
+{
+  "algorithmName": "BR_CM_ALFANUM",
+  "algorithmType": "COMPONENT",
+  "frameworkId": "{{FW:Character Mapping}}",
+  "algorithmExtension": {
+    "characterGroups": [
+      "0123456789",
+      "AEIOU",
+      "BCDFGHJKLMNPQRSTVWXYZ",
+      "aeiou",
+      "bcdfghjklmnpqrstvwxyz",
+      "ÁÉÍÓÚÂÊÔÃÕÀ",
+      "áéíóúâêôãõà"
+    ],
+    "caseSensitive": true,
+    "minMaskedPositions": 0,
+    "preserveLeadingZeros": true
+  }
+}

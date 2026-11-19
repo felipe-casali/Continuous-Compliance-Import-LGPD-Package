@@ -1,0 +1,12 @@
+{
+  "name": "BR_CM_DIGITOS",
+  "framework_id": "{{FW:Character Mapping}}",
+  "config": {
+    "characterGroups": [
+      "0123456789"
+    ],
+    "caseSensitive": true,
+    "minMaskedPositions": 0,
+    "preserveLeadingZeros": true
+  }
+}

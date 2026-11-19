@@ -1,0 +1,17 @@
+{
+  "name": "BR_L1_ENDERECO - Type",
+  "framework": "DATA_TYPE",
+  "data_class_id": "{{DC:BR_L1_ENDERECO}}",
+  "config": {
+    "allowedTypes": [
+      {
+        "typeName": "String",
+        "minimumLength": 6
+      }
+    ],
+    "matchAutoIncrementingColumn": false,
+    "matchStrength": 0,
+    "rejectStrength": 1
+  },
+  "description": "Descarta colunas cujo tipo não pode conter este dado."
+}

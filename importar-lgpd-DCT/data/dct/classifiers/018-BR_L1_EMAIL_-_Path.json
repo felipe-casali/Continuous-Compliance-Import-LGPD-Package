@@ -1,0 +1,19 @@
+{
+  "name": "BR_L1_EMAIL - Path",
+  "framework": "PATH",
+  "data_class_id": "{{DC:BR_L1_EMAIL}}",
+  "config": {
+    "paths": [
+      {
+        "matchType": "REGEX",
+        "fieldValue": "(?i)(?<![a-z])(?:e_?mail[a-z0-9_]*|mail[a-z0-9_]*|correio_?eletronico|endereco_?eletronico|(ds|de|tx)_?email)(?![a-z])",
+        "parentValue": "",
+        "matchStrength": 0.85,
+        "caseSensitive": false,
+        "allowPartialMatch": true
+      }
+    ],
+    "rejectStrength": 0
+  },
+  "description": "Nome da coluna e variantes usadas em sistemas brasileiros."
+}

@@ -1,0 +1,19 @@
+{
+  "name": "BR_L1_ENDERECO - Path",
+  "framework": "PATH",
+  "data_class_id": "{{DC:BR_L1_ENDERECO}}",
+  "config": {
+    "paths": [
+      {
+        "matchType": "REGEX",
+        "fieldValue": "(?i)(?<![a-z])(?:(?<!(mac|ip|e_?mail|web|url|eletronico)_?)endereco(?!_?(ip|mac|email|e_?mail|eletronico|web|url|tipo|id|cobranca_?id))[a-z0-9_]*|(?<!(mac|ip|e_?mail|web|url)_?)end_?(residencial|comercial|cobranca|entrega|correspondencia|completo)|logradouro[a-z0-9_]*|lograd|(ds|no|nm|tx)_?(logradouro|endereco|rua)|rua|residencia|domicilio[a-z0-9_]*|(?<!(mac|ip|e_?mail|web|url)_?)address(?!_?(ip|mac|email|e_?mail|web|url|type|id))[a-z0-9_]*|street(_?(address|name))?)(?![a-z])",
+        "parentValue": "",
+        "matchStrength": 0.8,
+        "caseSensitive": false,
+        "allowPartialMatch": true
+      }
+    ],
+    "rejectStrength": 0
+  },
+  "description": "Nome da coluna e variantes usadas em sistemas brasileiros."
+}

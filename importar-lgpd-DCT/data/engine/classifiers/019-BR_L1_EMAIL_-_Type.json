@@ -1,0 +1,17 @@
+{
+  "classifierName": "BR_L1_EMAIL - Type",
+  "domainName": "BR_L1_EMAIL",
+  "frameworkId": "{{CFW:TYPE}}",
+  "classifierConfiguration": {
+    "allowedTypes": [
+      {
+        "typeName": "String",
+        "minimumLength": 5
+      }
+    ],
+    "matchAutoIncrementingColumn": false,
+    "matchStrength": 0,
+    "rejectStrength": 1
+  },
+  "description": "Descarta colunas cujo tipo não pode conter este dado."
+}

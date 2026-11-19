@@ -1,0 +1,7 @@
+{
+  "name": "BR_L2_DATA_NASCIMENTO",
+  "default_algorithm_id": "{{ALG:BR_DATA_NASCIMENTO}}",
+  "algorithm_ids": [
+    "{{ALG:BR_DATA_NASCIMENTO}}"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "BR_L1_PASSAPORTE - Regex",
+  "framework": "REGEX",
+  "data_class_id": "{{DC:BR_L1_PASSAPORTE}}",
+  "config": {
+    "dataPatterns": [
+      {
+        "regex": "[A-Z]{2}\\d{6}",
+        "matchStrength": 0.4,
+        "checksumType": "NONE",
+        "caseSensitive": false,
+        "allowPartialMatch": false,
+        "dataCleanRegex": "^\\s+|\\s+$"
+      }
+    ],
+    "rejectStrength": 0.3
+  },
+  "description": "Formato dos valores."
+}

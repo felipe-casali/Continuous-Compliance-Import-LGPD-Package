@@ -1,0 +1,27 @@
+{
+  "classifierName": "BR_L1_CPF - Regex",
+  "domainName": "BR_L1_CPF",
+  "frameworkId": "{{CFW:REGEX}}",
+  "classifierConfiguration": {
+    "dataPatterns": [
+      {
+        "regex": "0*(?:\\d{3}\\.\\d{3}\\.\\d{3}-\\d{2})",
+        "matchStrength": 1,
+        "checksumType": "NONE",
+        "caseSensitive": false,
+        "allowPartialMatch": false,
+        "dataCleanRegex": "^\\s+|\\s+$"
+      },
+      {
+        "regex": "0*(?:\\d{11})",
+        "matchStrength": 0.5,
+        "checksumType": "NONE",
+        "caseSensitive": false,
+        "allowPartialMatch": false,
+        "dataCleanRegex": "^\\s+|\\s+$"
+      }
+    ],
+    "rejectStrength": 0.3
+  },
+  "description": "Formato dos valores."
+}

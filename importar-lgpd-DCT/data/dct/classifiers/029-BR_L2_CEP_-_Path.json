@@ -1,0 +1,19 @@
+{
+  "name": "BR_L2_CEP - Path",
+  "framework": "PATH",
+  "data_class_id": "{{DC:BR_L2_CEP}}",
+  "config": {
+    "paths": [
+      {
+        "matchType": "REGEX",
+        "fieldValue": "(?i)(?<![a-z])(?:cep(_?(residencia|residencial|comercial|cobranca|entrega|cliente|endereco|paciente|origem|destino))?|(nr|nu|num|numero|cd|co|cod)_?cep|codigo_?(de_?)?enderecamento_?postal|codigo_?postal|zip_?code|zip|postal_?code)(?![a-z])",
+        "parentValue": "",
+        "matchStrength": 0.9,
+        "caseSensitive": false,
+        "allowPartialMatch": true
+      }
+    ],
+    "rejectStrength": 0
+  },
+  "description": "Nome da coluna e variantes usadas em sistemas brasileiros."
+}

@@ -1,0 +1,7 @@
+{
+  "name": "BR_L1_ENDERECO_COMPLEMENTO",
+  "default_algorithm_id": "{{ALG:BR_CM_ALFANUM}}",
+  "algorithm_ids": [
+    "{{ALG:BR_CM_ALFANUM}}"
+  ]
+}

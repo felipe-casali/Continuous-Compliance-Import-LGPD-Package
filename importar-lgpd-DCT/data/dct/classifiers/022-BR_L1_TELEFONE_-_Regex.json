@@ -1,0 +1,35 @@
+{
+  "name": "BR_L1_TELEFONE - Regex",
+  "framework": "REGEX",
+  "data_class_id": "{{DC:BR_L1_TELEFONE}}",
+  "config": {
+    "dataPatterns": [
+      {
+        "regex": "0*(?:(\\+?55\\s?)?\\(?0?[1-9]\\d\\)?\\s?9\\d{4}[\\s\\-]?\\d{4})",
+        "matchStrength": 1,
+        "checksumType": "NONE",
+        "caseSensitive": false,
+        "allowPartialMatch": false,
+        "dataCleanRegex": "^\\s+|\\s+$"
+      },
+      {
+        "regex": "0*(?:(\\+?55\\s?)?\\(?0?[1-9]\\d\\)?\\s?[2-5]\\d{3}[\\s\\-]?\\d{4})",
+        "matchStrength": 0.8,
+        "checksumType": "NONE",
+        "caseSensitive": false,
+        "allowPartialMatch": false,
+        "dataCleanRegex": "^\\s+|\\s+$"
+      },
+      {
+        "regex": "0*(?:9\\d{4}-\\d{4})",
+        "matchStrength": 0.8,
+        "checksumType": "NONE",
+        "caseSensitive": false,
+        "allowPartialMatch": false,
+        "dataCleanRegex": "^\\s+|\\s+$"
+      }
+    ],
+    "rejectStrength": 0.3
+  },
+  "description": "Formato dos valores."
+}

@@ -1,0 +1,11 @@
+{
+  "algorithmName": "BR_DATA_NASCIMENTO",
+  "algorithmType": "COMPONENT",
+  "frameworkId": "{{FW:Date Shift}}",
+  "algorithmExtension": {
+    "minRange": -60,
+    "maxRange": 60,
+    "unit": "DAYS",
+    "roll": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "BR_L1_NOME - List",
+  "framework": "LIST",
+  "data_class_id": "{{DC:BR_L1_NOME}}",
+  "config": {
+    "valueLists": [
+      {
+        "file": "{{FILE:br-detectar-nomes.txt}}",
+        "matchStrength": 0.7
+      }
+    ],
+    "tokenizeInput": true,
+    "rejectStrength": 0.3,
+    "tokenizationDelimiter": " "
+  },
+  "description": "Valores conhecidos."
+}

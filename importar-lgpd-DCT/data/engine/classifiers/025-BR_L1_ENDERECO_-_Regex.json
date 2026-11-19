@@ -1,0 +1,27 @@
+{
+  "classifierName": "BR_L1_ENDERECO - Regex",
+  "domainName": "BR_L1_ENDERECO",
+  "frameworkId": "{{CFW:REGEX}}",
+  "classifierConfiguration": {
+    "dataPatterns": [
+      {
+        "regex": "(?i)(rua|r\\.|avenida|av\\.?|travessa|tv\\.?|alameda|al\\.|estrada|est\\.|rodovia|rod\\.|praca|praça|pc\\.|largo|viela|servidao|quadra|qd\\.?|setor|conjunto|beco|ladeira|vila)\\s+.+",
+        "matchStrength": 0.8,
+        "checksumType": "NONE",
+        "caseSensitive": false,
+        "allowPartialMatch": false,
+        "dataCleanRegex": "^\\s+|\\s+$"
+      },
+      {
+        "regex": "(?i).*,\\s*\\d+.*",
+        "matchStrength": 0.3,
+        "checksumType": "NONE",
+        "caseSensitive": false,
+        "allowPartialMatch": false,
+        "dataCleanRegex": "^\\s+|\\s+$"
+      }
+    ],
+    "rejectStrength": 0.2
+  },
+  "description": "Formato dos valores."
+}

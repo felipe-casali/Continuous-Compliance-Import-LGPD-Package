@@ -1,0 +1,13 @@
+{
+  "algorithmName": "BR_SOBRENOME",
+  "algorithmType": "COMPONENT",
+  "frameworkId": "{{FW:Name}}",
+  "algorithmExtension": {
+    "lookupFile": {
+      "uri": "{{FILE:br-sobrenomes.txt}}"
+    },
+    "maskedValueCase": "PRESERVE_INPUT",
+    "filterAccent": true,
+    "inputCaseSensitive": false
+  }
+}

@@ -20,6 +20,12 @@ The complete import script asks which engine generation you are using and instal
 
 The BR plugin archives include automatic document identification before masking, with validation for CPF, numeric CNPJ, and alphanumeric CNPJ.
 
+## Utilitário PowerShell para DCT
+
+O pacote [importar-lgpd-DCT.zip](importar-lgpd-DCT.zip) adiciona um utilitário para importar o pacote LGPD no Data Control Tower (DCT) ou no Delphix Continuous Compliance Engine pelo Windows PowerShell.
+
+Os arquivos extraídos estão em [`importar-lgpd-DCT/`](importar-lgpd-DCT/). Consulte o [README do pacote](importar-lgpd-DCT/README.md) para requisitos e instruções.
+
 If you don't have an available Linux server with the prerequisites above, the installation can be done directly on the Delphix Continuous Compliance VM.
 
 Instructions:

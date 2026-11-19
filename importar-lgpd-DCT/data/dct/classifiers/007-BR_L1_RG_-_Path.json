@@ -1,0 +1,19 @@
+{
+  "name": "BR_L1_RG - Path",
+  "framework": "PATH",
+  "data_class_id": "{{DC:BR_L1_RG}}",
+  "config": {
+    "paths": [
+      {
+        "matchType": "REGEX",
+        "fieldValue": "(?i)(?<![a-z])(?:rg[a-z0-9_]*|r_?g|n(r|u|um|o|ro|umero)_?rg|registro_?geral|carteira_?(de_?)?identidade|cedula_?(de_?)?identidade|identidade(?!_?(genero|visual|de_?genero))|doc_?identidade|documento_?(de_?)?identidade|ci_?(numero|num|nr)|rg_?(cliente|pessoa|func|titular|dependente|mae|pai|responsavel|segurado)|(cliente|pessoa|func|titular|responsavel)_?rg|identity_?(card|document|no|number)|id_?card)(?![a-z])",
+        "parentValue": "",
+        "matchStrength": 0.9,
+        "caseSensitive": false,
+        "allowPartialMatch": true
+      }
+    ],
+    "rejectStrength": 0
+  },
+  "description": "Nome da coluna e variantes usadas em sistemas brasileiros."
+}

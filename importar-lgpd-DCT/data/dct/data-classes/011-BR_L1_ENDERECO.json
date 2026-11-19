@@ -1,0 +1,7 @@
+{
+  "name": "BR_L1_ENDERECO",
+  "default_algorithm_id": "{{ALG:BR_ENDERECO}}",
+  "algorithm_ids": [
+    "{{ALG:BR_ENDERECO}}"
+  ]
+}

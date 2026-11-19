@@ -1,0 +1,24 @@
+{
+  "classifierName": "BR_L2_DATA_NASCIMENTO - Type",
+  "domainName": "BR_L2_DATA_NASCIMENTO",
+  "frameworkId": "{{CFW:TYPE}}",
+  "classifierConfiguration": {
+    "allowedTypes": [
+      {
+        "typeName": "Date"
+      },
+      {
+        "typeName": "JavaSqlType",
+        "sqlType": 93
+      },
+      {
+        "typeName": "String",
+        "minimumLength": 6
+      }
+    ],
+    "matchAutoIncrementingColumn": false,
+    "matchStrength": 0,
+    "rejectStrength": 1
+  },
+  "description": "Descarta colunas cujo tipo não pode conter este dado."
+}

@@ -1,0 +1,33 @@
+{
+  "algorithmName": "BR_PALAVRA_SOBRENOME",
+  "algorithmType": "COMPONENT",
+  "frameworkId": "{{FW:Regex Decompose}}",
+  "algorithmExtension": {
+    "maskPatterns": [
+      {
+        "regex": "(?i)(d[aeo]s?|e|di|del|della|van|von|der|du|le|la)",
+        "actions": [
+          {
+            "type": "PRESERVE"
+          }
+        ]
+      },
+      {
+        "regex": "(?i)(j[uú]nior|jr\\.?|filho|filha|neto|neta|sobrinho|segundo|terceiro)",
+        "actions": [
+          {
+            "type": "PRESERVE"
+          }
+        ]
+      }
+    ],
+    "fallbackAction": {
+      "type": "APPLY_ALGORITHM",
+      "algorithm": {
+        "name": "{{ALG:BR_SOBRENOME}}"
+      }
+    },
+    "trimInput": true,
+    "requireMask": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "BR_L1_SOBRENOME - Path",
+  "framework": "PATH",
+  "data_class_id": "{{DC:BR_L1_SOBRENOME}}",
+  "config": {
+    "paths": [
+      {
+        "matchType": "REGEX",
+        "fieldValue": "(?i)(?<![a-z])(?:sobrenomes?|ultimo_?nome|nome_?(de_?)?familia|last_?names?|surnames?|family_?names?|lname|apelido_?familia|sobrenome_?(pai|mae|paterno|materno|solteira|casada)|nome_?(de_?)?solteira|sobrenome_?(de_?)?casada)(?![a-z])",
+        "parentValue": "",
+        "matchStrength": 0.85,
+        "caseSensitive": false,
+        "allowPartialMatch": true
+      }
+    ],
+    "rejectStrength": 0
+  },
+  "description": "Nome da coluna e variantes usadas em sistemas brasileiros."
+}

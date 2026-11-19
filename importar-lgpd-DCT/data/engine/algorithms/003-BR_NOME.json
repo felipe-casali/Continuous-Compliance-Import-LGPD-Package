@@ -1,0 +1,13 @@
+{
+  "algorithmName": "BR_NOME",
+  "algorithmType": "COMPONENT",
+  "frameworkId": "{{FW:Name}}",
+  "algorithmExtension": {
+    "lookupFile": {
+      "uri": "{{FILE:br-nomes.txt}}"
+    },
+    "maskedValueCase": "PRESERVE_INPUT",
+    "filterAccent": true,
+    "inputCaseSensitive": false
+  }
+}
