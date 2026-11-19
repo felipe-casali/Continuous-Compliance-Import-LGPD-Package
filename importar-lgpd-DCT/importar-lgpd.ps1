@@ -188,10 +188,13 @@ $PolicyFile = $Index.policy.files.PSObject.Properties[$Pack].Value
 # ── HTTP ──────────────────────────────────────────────────────────────────────
 
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor [System.Net.SecurityProtocolType]::Tls12
-# A compiled callback: PowerShell 7 runs certificate checks on a thread with no runspace, where a
-# script block cannot run.
-if (-not ('DlpxTrustAll' -as [type])) {
-  Add-Type -TypeDefinition @'
+# PowerShell 5.1 accepts a script-block callback. PowerShell 7 runs it on a thread with no
+# runspace, so use a compiled callback there.
+$script:DlpxTrustAllCallback = $null
+if ($Insecure) {
+  if ($PSVersionTable.PSVersion.Major -ge 7) {
+    if (-not ('DlpxTrustAll' -as [type])) {
+      Add-Type -TypeDefinition @'
 using System.Net.Security;
 using System.Security.Cryptography.X509Certificates;
 public static class DlpxTrustAll {
@@ -199,6 +202,15 @@ public static class DlpxTrustAll {
   public static RemoteCertificateValidationCallback Callback { get { return new RemoteCertificateValidationCallback(Accept); } }
 }
 '@
+    }
+    $script:DlpxTrustAllCallback = [DlpxTrustAll]::Callback
+  } else {
+    $script:DlpxTrustAllCallback = [System.Net.Security.RemoteCertificateValidationCallback]{
+      param($sender, $cert, $chain, $errors)
+      return $true
+    }
+  }
+  [System.Net.ServicePointManager]::ServerCertificateValidationCallback = $script:DlpxTrustAllCallback
 }
 
 $script:AuthHeader = ''
@@ -210,7 +222,7 @@ function Invoke-Api([string]$Method, [string]$Path, [byte[]]$Body = $null, [stri
     $req.Accept = 'application/json'
     $req.Timeout = 300000
     $req.ReadWriteTimeout = 300000
-    if ($Insecure) { $req.ServerCertificateValidationCallback = [DlpxTrustAll]::Callback }
+    if ($Insecure) { $req.ServerCertificateValidationCallback = $script:DlpxTrustAllCallback }
     if ($script:AuthHeader) { $req.Headers.Add('Authorization', $script:AuthHeader) }
     $status = 0; $text = ''; $resp = $null
     try {
