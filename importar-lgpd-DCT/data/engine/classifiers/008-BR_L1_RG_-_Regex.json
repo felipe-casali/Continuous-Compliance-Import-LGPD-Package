@@ -1,0 +1,27 @@
+{
+  "classifierName": "BR_L1_RG - Regex",
+  "domainName": "BR_L1_RG",
+  "frameworkId": "{{CFW:REGEX}}",
+  "classifierConfiguration": {
+    "dataPatterns": [
+      {
+        "regex": "0*(?:\\d{1,2}\\.\\d{3}\\.\\d{3}-[\\dxX])",
+        "matchStrength": 0.7,
+        "checksumType": "NONE",
+        "caseSensitive": false,
+        "allowPartialMatch": false,
+        "dataCleanRegex": "^\\s+|\\s+$"
+      },
+      {
+        "regex": "[A-Z]{2}-?\\d{1,2}\\.?\\d{3}\\.?\\d{3}",
+        "matchStrength": 0.6,
+        "checksumType": "NONE",
+        "caseSensitive": false,
+        "allowPartialMatch": false,
+        "dataCleanRegex": "^\\s+|\\s+$"
+      }
+    ],
+    "rejectStrength": 0.3
+  },
+  "description": "Formato dos valores."
+}

@@ -1,0 +1,21 @@
+{
+  "name": "BR_L1_NOME_COMPLETO - List",
+  "framework": "LIST",
+  "data_class_id": "{{DC:BR_L1_NOME_COMPLETO}}",
+  "config": {
+    "valueLists": [
+      {
+        "file": "{{FILE:br-detectar-nomes.txt}}",
+        "matchStrength": 0.65
+      },
+      {
+        "file": "{{FILE:br-detectar-sobrenomes.txt}}",
+        "matchStrength": 0.65
+      }
+    ],
+    "tokenizeInput": true,
+    "rejectStrength": 0.3,
+    "tokenizationDelimiter": " "
+  },
+  "description": "Valores conhecidos."
+}

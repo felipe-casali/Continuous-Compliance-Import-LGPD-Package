@@ -1,0 +1,7 @@
+{
+  "name": "BR_L2_CEP",
+  "default_algorithm_id": "{{ALG:BR_CEP}}",
+  "algorithm_ids": [
+    "{{ALG:BR_CEP}}"
+  ]
+}

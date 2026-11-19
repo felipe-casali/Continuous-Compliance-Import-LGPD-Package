@@ -1,0 +1,7 @@
+{
+  "name": "BR_L1_CPF",
+  "default_algorithm_id": "{{ALG:BR:CpfCnpj}}",
+  "algorithm_ids": [
+    "{{ALG:BR:CpfCnpj}}"
+  ]
+}

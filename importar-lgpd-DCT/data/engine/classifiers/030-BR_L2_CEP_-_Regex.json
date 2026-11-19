@@ -1,0 +1,27 @@
+{
+  "classifierName": "BR_L2_CEP - Regex",
+  "domainName": "BR_L2_CEP",
+  "frameworkId": "{{CFW:REGEX}}",
+  "classifierConfiguration": {
+    "dataPatterns": [
+      {
+        "regex": "0*(?:\\d{5}-\\d{3})",
+        "matchStrength": 0.8,
+        "checksumType": "NONE",
+        "caseSensitive": false,
+        "allowPartialMatch": false,
+        "dataCleanRegex": "^\\s+|\\s+$"
+      },
+      {
+        "regex": "0*(?:\\d{2}\\.\\d{3}-\\d{3})",
+        "matchStrength": 0.9,
+        "checksumType": "NONE",
+        "caseSensitive": false,
+        "allowPartialMatch": false,
+        "dataCleanRegex": "^\\s+|\\s+$"
+      }
+    ],
+    "rejectStrength": 0.3
+  },
+  "description": "Formato dos valores."
+}

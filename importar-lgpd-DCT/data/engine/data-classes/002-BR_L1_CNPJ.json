@@ -1,0 +1,4 @@
+{
+  "domainName": "BR_L1_CNPJ",
+  "defaultAlgorithmCode": "{{ALG:BR:CpfCnpj}}"
+}

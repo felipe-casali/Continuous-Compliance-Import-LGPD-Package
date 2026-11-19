@@ -1,0 +1,32 @@
+{
+  "name": "BR_PALAVRA_NOME",
+  "framework_id": "{{FW:Regex Decompose}}",
+  "config": {
+    "maskPatterns": [
+      {
+        "regex": "(?i)(d[aeo]s?|e|di|del|della|van|von|der|du|le|la)",
+        "actions": [
+          {
+            "type": "PRESERVE"
+          }
+        ]
+      },
+      {
+        "regex": "(?i)(j[uú]nior|jr\\.?|filho|filha|neto|neta|sobrinho|segundo|terceiro)",
+        "actions": [
+          {
+            "type": "PRESERVE"
+          }
+        ]
+      }
+    ],
+    "fallbackAction": {
+      "type": "APPLY_ALGORITHM",
+      "algorithm": {
+        "name": "{{ALG:BR_NOME}}"
+      }
+    },
+    "trimInput": true,
+    "requireMask": false
+  }
+}

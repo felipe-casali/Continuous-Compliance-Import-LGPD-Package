@@ -1,0 +1,19 @@
+{
+  "name": "BR_L1_PASSAPORTE - Path",
+  "framework": "PATH",
+  "data_class_id": "{{DC:BR_L1_PASSAPORTE}}",
+  "config": {
+    "paths": [
+      {
+        "matchType": "REGEX",
+        "fieldValue": "(?i)(?<![a-z])(?:passaporte[a-z0-9_]*|passport[a-z0-9_]*|n(r|u|um|o|ro|umero)_?passaporte|pasaporte)(?![a-z])",
+        "parentValue": "",
+        "matchStrength": 0.9,
+        "caseSensitive": false,
+        "allowPartialMatch": true
+      }
+    ],
+    "rejectStrength": 0
+  },
+  "description": "Nome da coluna e variantes usadas em sistemas brasileiros."
+}

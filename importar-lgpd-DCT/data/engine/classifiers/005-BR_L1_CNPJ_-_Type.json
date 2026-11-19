@@ -1,0 +1,21 @@
+{
+  "classifierName": "BR_L1_CNPJ - Type",
+  "domainName": "BR_L1_CNPJ",
+  "frameworkId": "{{CFW:TYPE}}",
+  "classifierConfiguration": {
+    "allowedTypes": [
+      {
+        "typeName": "String",
+        "minimumLength": 3
+      },
+      {
+        "typeName": "Number",
+        "minimumLength": 3
+      }
+    ],
+    "matchAutoIncrementingColumn": false,
+    "matchStrength": 0,
+    "rejectStrength": 1
+  },
+  "description": "Descarta colunas cujo tipo não pode conter este dado."
+}

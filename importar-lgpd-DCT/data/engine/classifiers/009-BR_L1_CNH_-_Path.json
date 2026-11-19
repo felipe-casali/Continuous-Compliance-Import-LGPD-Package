@@ -1,0 +1,19 @@
+{
+  "classifierName": "BR_L1_CNH - Path",
+  "domainName": "BR_L1_CNH",
+  "frameworkId": "{{CFW:PATH}}",
+  "classifierConfiguration": {
+    "paths": [
+      {
+        "matchType": "REGEX",
+        "fieldValue": "(?i)(?<![a-z])(?:cnh[a-z0-9_]*|c_?n_?h|carteira_?(nacional_?)?(de_?)?habilitacao|habilitacao(_?(numero|num|nr|registro))?|registro_?cnh|n(r|u|um|o|ro|umero)_?(registro_?)?cnh|renach|pgu|permissao_?(para_?)?dirigir|drivers?_?licen[cs]e(_?(no|num|number))?)(?![a-z])",
+        "parentValue": "",
+        "matchStrength": 0.9,
+        "caseSensitive": false,
+        "allowPartialMatch": true
+      }
+    ],
+    "rejectStrength": 0
+  },
+  "description": "Nome da coluna e variantes usadas em sistemas brasileiros."
+}

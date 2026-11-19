@@ -1,0 +1,10 @@
+{
+  "name": "BR_DATA_NASCIMENTO",
+  "framework_id": "{{FW:Date Shift}}",
+  "config": {
+    "minRange": -60,
+    "maxRange": 60,
+    "unit": "DAYS",
+    "roll": false
+  }
+}

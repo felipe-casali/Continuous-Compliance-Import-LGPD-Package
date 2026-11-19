@@ -1,0 +1,19 @@
+{
+  "name": "BR_L1_TELEFONE - Path",
+  "framework": "PATH",
+  "data_class_id": "{{DC:BR_L1_TELEFONE}}",
+  "config": {
+    "paths": [
+      {
+        "matchType": "REGEX",
+        "fieldValue": "(?i)(?<![a-z])(?:tel|telefone[a-z0-9_]*|fone[a-z0-9_]*|celular[a-z0-9_]*|cel|movel|whats_?app|zap|contato_?(tel|telefone|celular)|(nr|nu|num|numero|ds|tx)_?(tel|telefone|fone|celular|cel)|ddd_?(tel|telefone|celular|fone)|fax|ramal|phone[a-z0-9_]*|mobile[a-z0-9_]*)(?![a-z])",
+        "parentValue": "",
+        "matchStrength": 0.85,
+        "caseSensitive": false,
+        "allowPartialMatch": true
+      }
+    ],
+    "rejectStrength": 0
+  },
+  "description": "Nome da coluna e variantes usadas em sistemas brasileiros."
+}

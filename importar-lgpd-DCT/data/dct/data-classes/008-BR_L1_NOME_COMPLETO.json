@@ -1,0 +1,7 @@
+{
+  "name": "BR_L1_NOME_COMPLETO",
+  "default_algorithm_id": "{{ALG:BR_NOME_COMPLETO}}",
+  "algorithm_ids": [
+    "{{ALG:BR_NOME_COMPLETO}}"
+  ]
+}

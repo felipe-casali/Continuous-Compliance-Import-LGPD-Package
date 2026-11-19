@@ -1,0 +1,18 @@
+{
+  "name": "BR_CM_ALFANUM",
+  "framework_id": "{{FW:Character Mapping}}",
+  "config": {
+    "characterGroups": [
+      "0123456789",
+      "AEIOU",
+      "BCDFGHJKLMNPQRSTVWXYZ",
+      "aeiou",
+      "bcdfghjklmnpqrstvwxyz",
+      "ÁÉÍÓÚÂÊÔÃÕÀ",
+      "áéíóúâêôãõà"
+    ],
+    "caseSensitive": true,
+    "minMaskedPositions": 0,
+    "preserveLeadingZeros": true
+  }
+}

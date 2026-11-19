@@ -1,0 +1,24 @@
+{
+  "name": "BR_L2_DATA_NASCIMENTO - Type",
+  "framework": "DATA_TYPE",
+  "data_class_id": "{{DC:BR_L2_DATA_NASCIMENTO}}",
+  "config": {
+    "allowedTypes": [
+      {
+        "typeName": "Date"
+      },
+      {
+        "typeName": "JavaSqlType",
+        "sqlType": 93
+      },
+      {
+        "typeName": "String",
+        "minimumLength": 6
+      }
+    ],
+    "matchAutoIncrementingColumn": false,
+    "matchStrength": 0,
+    "rejectStrength": 1
+  },
+  "description": "Descarta colunas cujo tipo não pode conter este dado."
+}

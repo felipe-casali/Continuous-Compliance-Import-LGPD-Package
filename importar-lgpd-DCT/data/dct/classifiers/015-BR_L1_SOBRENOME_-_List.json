@@ -1,0 +1,17 @@
+{
+  "name": "BR_L1_SOBRENOME - List",
+  "framework": "LIST",
+  "data_class_id": "{{DC:BR_L1_SOBRENOME}}",
+  "config": {
+    "valueLists": [
+      {
+        "file": "{{FILE:br-detectar-sobrenomes.txt}}",
+        "matchStrength": 0.7
+      }
+    ],
+    "tokenizeInput": true,
+    "rejectStrength": 0.3,
+    "tokenizationDelimiter": " "
+  },
+  "description": "Valores conhecidos."
+}

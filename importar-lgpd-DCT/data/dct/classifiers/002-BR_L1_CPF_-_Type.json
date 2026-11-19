@@ -1,0 +1,21 @@
+{
+  "name": "BR_L1_CPF - Type",
+  "framework": "DATA_TYPE",
+  "data_class_id": "{{DC:BR_L1_CPF}}",
+  "config": {
+    "allowedTypes": [
+      {
+        "typeName": "String",
+        "minimumLength": 3
+      },
+      {
+        "typeName": "Number",
+        "minimumLength": 3
+      }
+    ],
+    "matchAutoIncrementingColumn": false,
+    "matchStrength": 0,
+    "rejectStrength": 1
+  },
+  "description": "Descarta colunas cujo tipo não pode conter este dado."
+}

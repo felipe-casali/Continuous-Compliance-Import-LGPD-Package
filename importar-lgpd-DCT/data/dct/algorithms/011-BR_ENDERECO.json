@@ -1,0 +1,14 @@
+{
+  "name": "BR_ENDERECO",
+  "framework_id": "{{FW:Secure Lookup}}",
+  "config": {
+    "lookupFile": {
+      "uri": "{{FILE:br-enderecos.txt}}"
+    },
+    "hashMethod": "SHA256",
+    "maskedValueCase": "PRESERVE_LOOKUP_FILE",
+    "inputCaseSensitive": false,
+    "trimWhitespaceFromInput": true,
+    "trimWhitespaceInLookupFile": true
+  }
+}

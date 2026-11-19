@@ -1,0 +1,7 @@
+{
+  "name": "BR_L1_RG",
+  "default_algorithm_id": "{{ALG:BR_CM_DIGITOS}}",
+  "algorithm_ids": [
+    "{{ALG:BR_CM_DIGITOS}}"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "name": "BR_SOBRENOMES",
+  "framework_id": "{{FW:Regex Decompose}}",
+  "config": {
+    "maskPatterns": [
+      {
+        "regex": "(\\S+)",
+        "actions": [
+          {
+            "type": "APPLY_ALGORITHM",
+            "algorithm": {
+              "name": "{{ALG:BR_PALAVRA_SOBRENOME}}"
+            }
+          }
+        ]
+      },
+      {
+        "regex": "(\\S+)\\s+(\\S+)",
+        "actions": [
+          {
+            "type": "APPLY_ALGORITHM",
+            "algorithm": {
+              "name": "{{ALG:BR_PALAVRA_SOBRENOME}}"
+            }
+          },
+          {
+            "type": "APPLY_ALGORITHM",
+            "algorithm": {
+              "name": "{{ALG:BR_PALAVRA_SOBRENOME}}"
+            }
+          }
+        ]
+      },
+      {
+        "regex": "(\\S+)\\s+(\\S+)\\s+(\\S+)",
+        "actions": [
+          {
+            "type": "APPLY_ALGORITHM",
+            "algorithm": {
+              "name": "{{ALG:BR_PALAVRA_SOBRENOME}}"
+            }
+          },
+          {
+            "type": "APPLY_ALGORITHM",
+            "algorithm": {
+              "name": "{{ALG:BR_PALAVRA_SOBRENOME}}"
+            }
+          },
+          {
+            "type": "APPLY_ALGORITHM",
+            "algorithm": {
+              "name": "{{ALG:BR_PALAVRA_SOBRENOME}}"
+            }
+          }
+        ]
+      },
+      {
+        "regex": "(\\S+)\\s+(\\S+)\\s+(\\S+)\\s+(\\S+)",
+        "actions": [
+          {
+            "type": "APPLY_ALGORITHM",
+            "algorithm": {
+              "name": "{{ALG:BR_PALAVRA_SOBRENOME}}"
+            }
+          },
+          {
+            "type": "APPLY_ALGORITHM",
+            "algorithm": {
+              "name": "{{ALG:BR_PALAVRA_SOBRENOME}}"
+            }
+          },
+          {
+            "type": "APPLY_ALGORITHM",
+            "algorithm": {
+              "name": "{{ALG:BR_PALAVRA_SOBRENOME}}"
+            }
+          },
+          {
+            "type": "APPLY_ALGORITHM",
+            "algorithm": {
+              "name": "{{ALG:BR_PALAVRA_SOBRENOME}}"
+            }
+          }
+        ]
+      }
+    ],
+    "fallbackAction": {
+      "type": "APPLY_ALGORITHM",
+      "algorithm": {
+        "name": "{{ALG:BR_CM_ALFANUM}}"
+      }
+    },
+    "trimInput": true,
+    "requireMask": false
+  }
+}

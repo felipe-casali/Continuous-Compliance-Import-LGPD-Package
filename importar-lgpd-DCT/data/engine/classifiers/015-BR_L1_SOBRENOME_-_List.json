@@ -1,0 +1,17 @@
+{
+  "classifierName": "BR_L1_SOBRENOME - List",
+  "domainName": "BR_L1_SOBRENOME",
+  "frameworkId": "{{CFW:LIST}}",
+  "classifierConfiguration": {
+    "valueLists": [
+      {
+        "file": "{{FILE:br-detectar-sobrenomes.txt}}",
+        "matchStrength": 0.7
+      }
+    ],
+    "tokenizeInput": true,
+    "rejectStrength": 0.3,
+    "tokenizationDelimiter": " "
+  },
+  "description": "Valores conhecidos."
+}

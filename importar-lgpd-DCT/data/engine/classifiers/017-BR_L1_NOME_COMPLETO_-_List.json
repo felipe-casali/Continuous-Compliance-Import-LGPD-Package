@@ -1,0 +1,21 @@
+{
+  "classifierName": "BR_L1_NOME_COMPLETO - List",
+  "domainName": "BR_L1_NOME_COMPLETO",
+  "frameworkId": "{{CFW:LIST}}",
+  "classifierConfiguration": {
+    "valueLists": [
+      {
+        "file": "{{FILE:br-detectar-nomes.txt}}",
+        "matchStrength": 0.65
+      },
+      {
+        "file": "{{FILE:br-detectar-sobrenomes.txt}}",
+        "matchStrength": 0.65
+      }
+    ],
+    "tokenizeInput": true,
+    "rejectStrength": 0.3,
+    "tokenizationDelimiter": " "
+  },
+  "description": "Valores conhecidos."
+}

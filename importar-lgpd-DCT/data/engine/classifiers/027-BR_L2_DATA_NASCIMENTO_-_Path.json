@@ -1,0 +1,19 @@
+{
+  "classifierName": "BR_L2_DATA_NASCIMENTO - Path",
+  "domainName": "BR_L2_DATA_NASCIMENTO",
+  "frameworkId": "{{CFW:PATH}}",
+  "classifierConfiguration": {
+    "paths": [
+      {
+        "matchType": "REGEX",
+        "fieldValue": "(?i)(?<![a-z])(?:dt_?nasc(imento)?|data_?(de_?)?nasc(imento)?|dat_?nasc|d_?nasc|nascimento|dn|dta_?nasc|dtnasc|datanasc(imento)?|aniversario|dob|date_?of_?birth|birth_?date|birthday)(?![a-z])",
+        "parentValue": "",
+        "matchStrength": 0.9,
+        "caseSensitive": false,
+        "allowPartialMatch": true
+      }
+    ],
+    "rejectStrength": 0
+  },
+  "description": "Nome da coluna e variantes usadas em sistemas brasileiros."
+}

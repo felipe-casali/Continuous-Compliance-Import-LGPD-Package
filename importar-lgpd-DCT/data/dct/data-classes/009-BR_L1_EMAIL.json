@@ -1,0 +1,7 @@
+{
+  "name": "BR_L1_EMAIL",
+  "default_algorithm_id": "{{ALG:BR_EMAIL}}",
+  "algorithm_ids": [
+    "{{ALG:BR_EMAIL}}"
+  ]
+}

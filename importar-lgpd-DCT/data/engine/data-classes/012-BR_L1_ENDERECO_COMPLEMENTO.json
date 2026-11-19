@@ -1,0 +1,4 @@
+{
+  "domainName": "BR_L1_ENDERECO_COMPLEMENTO",
+  "defaultAlgorithmCode": "{{ALG:BR_CM_ALFANUM}}"
+}

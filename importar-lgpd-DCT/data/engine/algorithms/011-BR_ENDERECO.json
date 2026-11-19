@@ -1,0 +1,15 @@
+{
+  "algorithmName": "BR_ENDERECO",
+  "algorithmType": "COMPONENT",
+  "frameworkId": "{{FW:Secure Lookup}}",
+  "algorithmExtension": {
+    "lookupFile": {
+      "uri": "{{FILE:br-enderecos.txt}}"
+    },
+    "hashMethod": "SHA256",
+    "maskedValueCase": "PRESERVE_LOOKUP_FILE",
+    "inputCaseSensitive": false,
+    "trimWhitespaceFromInput": true,
+    "trimWhitespaceInLookupFile": true
+  }
+}

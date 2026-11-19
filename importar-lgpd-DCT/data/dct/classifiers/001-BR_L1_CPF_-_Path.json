@@ -1,0 +1,27 @@
+{
+  "name": "BR_L1_CPF - Path",
+  "framework": "PATH",
+  "data_class_id": "{{DC:BR_L1_CPF}}",
+  "config": {
+    "paths": [
+      {
+        "matchType": "REGEX",
+        "fieldValue": "(?i)(?<![a-z])(?:cpf[a-z0-9_]*|c_?p_?f|n(r|u|um|o|ro|umero)_?cpf|cpf_?(cnpj|cgc)|cadastro_?(de_?)?pessoas?_?fisicas?|documento_?fiscal|(cliente|cli|clie|pessoa|pes|func|funcionario|colaborador|servidor|empregado|segurado|beneficiario|benef|titular|dependente|paciente|aluno|contribuinte|responsavel|resp|socio|motorista|condutor|tomador|devedor|avalista|fiador|consumidor|comprador|eleitor|candidato|usuario)_?cpf)(?![a-z])",
+        "parentValue": "",
+        "matchStrength": 0.9,
+        "caseSensitive": false,
+        "allowPartialMatch": true
+      },
+      {
+        "matchType": "REGEX",
+        "fieldValue": "(?i)(?<![a-z])(?:tax_?id|taxpayer_?id|documento_?(cliente|pessoa)|doc_?(cliente|pessoa)|nr_?documento|num_?documento|numero_?documento|n(r|u)_?doc)(?![a-z])",
+        "parentValue": "",
+        "matchStrength": 0.55,
+        "caseSensitive": false,
+        "allowPartialMatch": true
+      }
+    ],
+    "rejectStrength": 0
+  },
+  "description": "Nome da coluna e variantes usadas em sistemas brasileiros."
+}

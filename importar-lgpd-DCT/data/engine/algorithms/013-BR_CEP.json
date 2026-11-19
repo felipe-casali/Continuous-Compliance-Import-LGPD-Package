@@ -1,0 +1,61 @@
+{
+  "algorithmName": "BR_CEP",
+  "algorithmType": "COMPONENT",
+  "frameworkId": "{{FW:Regex Decompose}}",
+  "algorithmExtension": {
+    "maskPatterns": [
+      {
+        "regex": "(0*?)(?:(\\d{2})(\\.?)(\\d)(\\d{2})(-?)(\\d{3}))",
+        "actions": [
+          {
+            "type": "PRESERVE"
+          },
+          {
+            "type": "PRESERVE"
+          },
+          {
+            "type": "PRESERVE"
+          },
+          {
+            "type": "PRESERVE"
+          },
+          {
+            "type": "REDACT",
+            "redactString": "00"
+          },
+          {
+            "type": "PRESERVE"
+          },
+          {
+            "type": "REDACT",
+            "redactString": "000"
+          }
+        ]
+      },
+      {
+        "regex": "(0*?)(?:(\\d{2})(\\d{2})(\\d{3}))",
+        "actions": [
+          {
+            "type": "PRESERVE"
+          },
+          {
+            "type": "PRESERVE"
+          },
+          {
+            "type": "REDACT",
+            "redactString": "00"
+          },
+          {
+            "type": "REDACT",
+            "redactString": "000"
+          }
+        ]
+      }
+    ],
+    "fallbackAction": {
+      "type": "PRESERVE"
+    },
+    "trimInput": true,
+    "requireMask": false
+  }
+}
